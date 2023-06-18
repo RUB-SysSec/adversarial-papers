@@ -1,0 +1,902 @@
+[
+    {
+        "submission_name": "2112.07498",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "tobias_fiebig"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.09528",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "mathias_lecuyer"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.04838",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "juraj_somorovsky"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.07498",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "yasemin_acar"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.10241",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicholas_carlini"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.09014",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "christina_poepper"
+            ]
+        }
+    },
+    {
+        "submission_name": "2104.02739",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "abhradeep_guha_thakurta"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.05719",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "jean-pierre_seifert"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.03570",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "mario_fritz"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.13818",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "gururaj_saileshwar"
+            ]
+        }
+    },
+    {
+        "submission_name": "2010.03856",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "battista_biggio"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.04838",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "chris_brzuska"
+            ]
+        }
+    },
+    {
+        "submission_name": "2202.09470",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "tiffany_bao"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.05224",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicolas_papernot"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.08331",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "mario_fritz"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.05719",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "tiffany_bao"
+            ]
+        }
+    },
+    {
+        "submission_name": "2010.12450",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "taesoo_kim"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.09454",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "fabio_pierazzi"
+            ]
+        }
+    },
+    {
+        "submission_name": "2101.11073",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicolas_papernot"
+            ]
+        }
+    },
+    {
+        "submission_name": "2111.04625",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "gururaj_saileshwar"
+            ]
+        }
+    },
+    {
+        "submission_name": "2202.09470",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicolas_papernot"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.03449",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "mathias_lecuyer"
+            ]
+        }
+    },
+    {
+        "submission_name": "2104.02739",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "adria_gascon"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.03570",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicolas_papernot"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.08331",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "battista_biggio"
+            ]
+        }
+    },
+    {
+        "submission_name": "2202.09470",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "feargus_pendlebury"
+            ]
+        }
+    },
+    {
+        "submission_name": "2107.07065",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "tiffany_bao"
+            ]
+        }
+    },
+    {
+        "submission_name": "2201.04845",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "battista_biggio"
+            ]
+        }
+    },
+    {
+        "submission_name": "2101.11073",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "battista_biggio"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.06504",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "battista_biggio"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.05307",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "mathias_lecuyer"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.03570",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "battista_biggio"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.07498",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "elissa_redmiles"
+            ]
+        }
+    },
+    {
+        "submission_name": "2110.12340",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "cl?mentine_maurice"
+            ]
+        }
+    },
+    {
+        "submission_name": "2101.11073",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicholas_carlini"
+            ]
+        }
+    },
+    {
+        "submission_name": "2110.12340",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "yuval_yarom"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.05719",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "aur?lien_francillon"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.09528",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "ninghui_li"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.00352",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicholas_carlini"
+            ]
+        }
+    },
+    {
+        "submission_name": "2201.04845",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "abhradeep_guha_thakurta"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.06504",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "abhradeep_guha_thakurta"
+            ]
+        }
+    },
+    {
+        "submission_name": "2107.04284",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "mario_fritz"
+            ]
+        }
+    },
+    {
+        "submission_name": "2010.03856",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "feargus_pendlebury"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.03570",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "fabio_pierazzi"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.09454",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "battista_biggio"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.05307",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "abhradeep_guha_thakurta"
+            ]
+        }
+    },
+    {
+        "submission_name": "2107.07065",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "yuan_zhang"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.06504",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicolas_papernot"
+            ]
+        }
+    },
+    {
+        "submission_name": "2106.09898",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "battista_biggio"
+            ]
+        }
+    },
+    {
+        "submission_name": "2010.03856",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "mario_fritz"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.04838",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "billy_brumley"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.05588",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "battista_biggio"
+            ]
+        }
+    },
+    {
+        "submission_name": "2201.04845",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "mario_fritz"
+            ]
+        }
+    },
+    {
+        "submission_name": "2110.12340",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "riccardo_paccagnella"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.01967",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "qi_li"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.05588",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "fabio_pierazzi"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.01341",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "sebastian_faust"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.05307",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "adria_gascon"
+            ]
+        }
+    },
+    {
+        "submission_name": "2202.09470",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicholas_carlini"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.09014",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "qi_li"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.05719",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "jun_xu"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.09454",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicholas_carlini"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.01341",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "giulio_malavolta"
+            ]
+        }
+    },
+    {
+        "submission_name": "2107.04284",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicolas_papernot"
+            ]
+        }
+    },
+    {
+        "submission_name": "2101.11073",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "abhradeep_guha_thakurta"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.05588",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicholas_carlini"
+            ]
+        }
+    },
+    {
+        "submission_name": "2202.09470",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "mario_fritz"
+            ]
+        }
+    },
+    {
+        "submission_name": "2104.08638",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "fraser_brown"
+            ]
+        }
+    },
+    {
+        "submission_name": "2101.11073",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "mario_fritz"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.01341",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "pedro_moreno-sanchez"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.01341",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "arthur_gervais"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.05224",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "feargus_pendlebury"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.09528",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "paul_grubbs"
+            ]
+        }
+    },
+    {
+        "submission_name": "2104.02739",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "ninghui_li"
+            ]
+        }
+    },
+    {
+        "submission_name": "2106.09898",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "feargus_pendlebury"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.10241",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "mario_fritz"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.09014",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "wenyuan_xu"
+            ]
+        }
+    },
+    {
+        "submission_name": "2104.08638",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "tiffany_bao"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.03449",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "abhradeep_guha_thakurta"
+            ]
+        }
+    },
+    {
+        "submission_name": "2104.08638",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "taesoo_kim"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.03449",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "paul_grubbs"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.08331",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "fabio_pierazzi"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.06504",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "fabio_pierazzi"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.09014",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "yongdae_kim"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.03449",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "ninghui_li"
+            ]
+        }
+    },
+    {
+        "submission_name": "2111.04625",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicolas_papernot"
+            ]
+        }
+    },
+    {
+        "submission_name": "2104.08638",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "jun_xu"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.01967",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "yongdae_kim"
+            ]
+        }
+    },
+    {
+        "submission_name": "2010.12450",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "yan_shoshitaishvili"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.13818",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "thomas_eisenbarth"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.10241",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "feargus_pendlebury"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.00352",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicolas_papernot"
+            ]
+        }
+    },
+    {
+        "submission_name": "2105.05801",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "yuval_yarom"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.00352",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "fabio_pierazzi"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.08331",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicholas_carlini"
+            ]
+        }
+    },
+    {
+        "submission_name": "2106.09898",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicholas_carlini"
+            ]
+        }
+    },
+    {
+        "submission_name": "2107.07065",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "eric_bodden"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.09293",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "antonio_bianchi"
+            ]
+        }
+    },
+    {
+        "submission_name": "2112.04838",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "stefano_tessaro"
+            ]
+        }
+    },
+    {
+        "submission_name": "2108.10241",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicolas_papernot"
+            ]
+        }
+    }
+]

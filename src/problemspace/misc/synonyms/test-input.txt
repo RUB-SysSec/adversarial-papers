@@ -1,0 +1,7 @@
+This is a text about network intrusion detection, yet it should not be about
+intrusion detection but a different topic: malware analysis.  To make this
+change possible, we also investigate aspects related to intrusion detection
+and malware analysis.  For example, the analysis of network packets has
+several similarities with the inspection of code.  Similarly, botnets can
+often be detected with both systems.  Also apts are a good target for these
+approaches and a corresponding code analysis.

@@ -1,0 +1,592 @@
+\documentclass[conference]{IEEEtran}
+\newif\ifsubmission
+\submissionfalse
+
+
+
+
+\usepackage{adjustbox}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{balance}
+\usepackage{booktabs}
+\usepackage[font={footnotesize}]{caption}
+\usepackage{cite}
+\usepackage{color, colortbl}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage[breaklinks,hidelinks]{hyperref}
+\usepackage{cleveref} %
+\usepackage{listings}
+\usepackage{mdframed}
+\usepackage{multirow}
+\usepackage[numbers,sort]{natbib}
+  \bibliographystyle{abbrvnat}
+  \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\def\UrlBreaks{\do\/\do-}
+
+\usepackage{pdfcomment}
+\usepackage{relsize}
+\usepackage[nolist]{acronym}
+\usepackage{siunitx}
+  \sisetup{
+%    load=prefixed,
+    binary-units=true,
+    group-separator={,},
+    group-minimum-digits=4,
+    group-digits=integer,
+    group-four-digits=true,
+    detect-weight=true,
+    detect-family=true
+  }
+\usepackage{soul}
+\usepackage{subcaption}
+\captionsetup[sub]{font=scriptsize}
+
+\usepackage{tabularx}
+\usepackage{textcomp}
+\usepackage{wasysym}
+\usepackage{xcolor}
+\usepackage{xspace}
+
+
+\newcommand{\head}[1]{\textnormal{\textbf{#1}}}
+\newcommand{\normal}[1]{\multicolumn{1}{l}{#1}}
+
+\def\Snospace~{\S{}}
+\renewcommand*{\sectionautorefname}{\Snospace}
+\renewcommand*{\subsectionautorefname}{\Snospace}
+\renewcommand*{\subsubsectionautorefname}{\Snospace}
+
+
+
+
+
+
+
+\renewcommand{\paragraph}[1]{{\vskip 6pt \noindent\textbf{#1.} }}
+
+
+\newcommand{\eg}{e.g.,\xspace} %
+\newcommand{\ie}{i.e.,\xspace} %
+\newcommand{\cf}{cf.\xspace} %
+
+\newcommand{\perc}[1]{%
+  \ifstrempty{#1}%
+  {\,\si{\percent}}%
+  {\SI{#1}{\percent}}%
+}
+
+
+
+
+\newcommand{\ember}{Ember\xspace}
+\newcommand{\malconv}{MalConv\xspace}
+\newcommand{\lgbm}{LightGBM\xspace}
+
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+\newcommand{\defname}{PEberus\xspace}
+\newcommand{\defnameit}{\textit{PEberus}\xspace}
+
+
+\begin{document}
+
+\title{Example Latex Document}
+
+
+
+ \author{
+	\IEEEauthorblockN{
+		Erwin Quiring
+	}
+	\vspace{0.2cm}
+	\IEEEauthorblockA{Technische Universit\"at 
+	Braunschweig\\Braunschweig, Germany}
+}
+
+
+
+\maketitle
+\ifsubmission\else
+  \thispagestyle{plain}
+  \pagestyle{plain}
+\fi
+
+
+
+\begin{abstract}
+Machine learning-based systems for malware detection operate in a 
+hostile environment. 
+Consequently, adversaries will also target the learning system and use 
+evasion attacks to bypass the detection of malware. 
+In this paper, we outline our learning-based system \defnameit that
+got the first place in the defender challenge of the Microsoft Evasion
+Competition, resisting a variety of attacks from independent
+attackers.  Our system combines multiple, diverse defenses: we address
+the semantic gap, use various classification models, and apply a
+stateful defense.  This competition gives us the unique opportunity to
+examine evasion attacks under a realistic scenario. It also highlights
+that existing machine learning methods can be hardened against attacks
+by thoroughly analyzing the attack surface and implementing
+concepts from adversarial learning.  Our defense can serve as an
+additional baseline in the future to strengthen the research on secure
+learning.
+\end{abstract}
+
+
+\section{Introduction}
+
+Machine learning is a powerful tool for detecting malware. The 
+capability to automatically infer and generalize patterns from data 
+allows detecting newly emerging malware.
+However, machine learning itself introduces a considerable attack 
+surface, as previous work in adversarial learning unveils.  
+Possible attacks range from exploiting the preprocessing
+stage~\citep{QuiKleArpJohRie18, XiaCheShe+19}, poisoning the training
+data~\citep[e.g.,][]{BigNelLas11, GuDolGar17, LiuMaAaf+18}, stealing
+the model~\citep{TraZhaJuel+16}, to misleading the
+prediction~\citep[e.g.,][]{BigCorMai+13, CarWag17}.
+
+As a result, it is vitally important to consider machine
+learning-related attacks in addition to the underlying security
+problem. The 2020 Machine Learning Security Evasion 
+Competition~\citep{web:Contest} focuses
+on the threat of evasion attacks with Windows PE malware. This
+competition provides a unique opportunity: It allows researchers to 
+take the role of a defender or attacker in a real scenario without 
+perfect knowledge. Defenses can be examined against evasion attacks 
+from independent real-world attackers.
+
+Our defense \defnameit got the first place in the defender challenge, 
+resisting a variety of sophisticated attacks. Our solution is based on 
+diversification and consists of three main concepts.
+First, various heuristics address the semantic gap. This gap between 
+the semantics of a PE program and its feature representation 
+allows relatively simple functionality-preserving attacks.
+Second, multiple classification models use distinct feature sets to
+classify malware reliably while considering targeted attacks against
+the model. A stateful defense finally detects iterative attacks that
+exploit the API access to the classifier.
+Although our solution fends off the majority of attacks in the
+competition, it is limited to static analysis, and thus a few attacks
+based on obfuscation succeeded. Note that the use-case is Windows
+PE malware, but our insights and concepts are generally usable
+for other security domains~as~well.
+
+
+{\footnotesize
+	\interlinepenalty=10000
+
+\begin{thebibliography}{47}
+	\providecommand{\natexlab}[1]{#1}
+	\providecommand{\url}[1]{\texttt{#1}}
+	\expandafter\ifx\csname urlstyle\endcsname\relax
+	\providecommand{\doi}[1]{doi: #1}\else
+	\providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+	
+	\bibitem[{Anderson} and {Roth}(2018)]{AndRot18}
+	H.~S. {Anderson} and P.~{Roth}.
+	\newblock {{EMBER}: An Open Dataset for Training Static PE Malware 
+	Machine
+		Learning Models}.
+	\newblock \emph{arXiv:1804.04637}, 2018.
+	
+	\bibitem[Anderson et~al.(2018)Anderson, Kharkar, Filar, Evans, and
+	Roth]{AndKhaFil+18}
+	H.~S. Anderson, A.~Kharkar, B.~Filar, D.~Evans, and P.~Roth.
+	\newblock Learning to evade static {PE} machine learning malware 
+	models via
+	reinforcement learning.
+	\newblock \emph{arXiv:1801.08917}, 2018.
+	
+	\bibitem[Arp et~al.(2014)Arp, Spreitzenbarth, Hubner, Gascon, and
+	Rieck]{ArpSprHubGas+14}
+	D.~Arp, M.~Spreitzenbarth, M.~Hubner, H.~Gascon, and K.~Rieck.
+	\newblock Drebin: Effective and explainable detection of android 
+	malware in
+	your pocket.
+	\newblock In \emph{Proc. of Network and Distributed System Security 
+	Symposium
+		({NDSS})}, 2014.
+	
+	\bibitem[Bailey et~al.(2007)Bailey, Oberheide, Andersen, Mao, 
+	Jahanian, and
+	Nazario]{BaiObeAndMao07}
+	M.~Bailey, J.~Oberheide, J.~Andersen, Z.~M. Mao, F.~Jahanian, and 
+	J.~Nazario.
+	\newblock Automated classification and analysis of internet malware.
+	\newblock In \emph{Proc. of International Symposium on Recent 
+	Advances in
+		Intrusion Detection ({RAID})}, 2007.
+	
+	\bibitem[Bayer et~al.(2006)Bayer, Moser, Kruegel, and 
+	Kirda]{BayMosKru+06}
+	U.~Bayer, A.~Moser, C.~Kruegel, and E.~Kirda.
+	\newblock Dynamic analysis of malicious code.
+	\newblock \emph{Journal in Computer Virology}, 2\penalty0 (1), 2006.
+	
+	\bibitem[Bayer et~al.(2009)Bayer, Comparetti, Hlauschek, Krügel, and
+	Kirda]{BayComHlaKrue09}
+	U.~Bayer, P.~M. Comparetti, C.~Hlauschek, C.~Krügel, and E.~Kirda.
+	\newblock Scalable, behavior-based malware clustering.
+	\newblock In \emph{Proc. of Network and Distributed System Security 
+	Symposium
+		({NDSS})}, 2009.
+	
+	\bibitem[Biggio and Roli(2018)]{BigRol18}
+	B.~Biggio and F.~Roli.
+	\newblock Wild patterns: Ten years after the rise of adversarial 
+	machine
+	learning.
+	\newblock \emph{Pattern Recognition}, 84, 2018.
+	
+	\bibitem[Biggio et~al.(2011)Biggio, Nelson, and Laskov]{BigNelLas11}
+	B.~Biggio, B.~Nelson, and P.~Laskov.
+	\newblock Support vector machines under adversarial label noise.
+	\newblock In \emph{Proc. of Asian Conference on Machine Learning 
+	{(ACML)}},
+	2011.
+	
+	\bibitem[Biggio et~al.(2013)Biggio, Corona, Maiorca, Nelson,
+	{\v{S}}rndi{\'{c}}, Laskov, Giacinto, and Roli]{BigCorMai+13}
+	B.~Biggio, I.~Corona, D.~Maiorca, B.~Nelson, N.~{\v{S}}rndi{\'{c}}, 
+	P.~Laskov,
+	G.~Giacinto, and F.~Roli.
+	\newblock Evasion attacks against machine learning at test time.
+	\newblock In \emph{Machine Learning and Knowledge Discovery in 
+	Databases}.
+	Springer, 2013.
+	
+	\bibitem[Carlini and Wagner(2017)]{CarWag17}
+	N.~Carlini and D.~A. Wagner.
+	\newblock Towards evaluating the robustness of neural networks.
+	\newblock In \emph{Proc. of {IEEE} Symposium on Security and 
+	Privacy ({S\&P})},
+	2017.
+		
+	\bibitem[Ceschin et~al.(2019)Ceschin, Botacin, Gomes, Oliveira, and
+	Gr\'{e}gio]{CesBotGom+19}
+	F.~Ceschin, M.~Botacin, H.~M. Gomes, L.~S. Oliveira, and 
+	A.~Gr\'{e}gio.
+	\newblock Shallow security: On the creation of adversarial variants 
+	to evade
+	machine learning-based malware detectors.
+	\newblock In \emph{Proceedings of the 3rd Reversing and 
+	Offensive-Oriented
+		Trends Symposium (ROOTS)}, 2019.
+	
+	\bibitem[Chen and Guestrin(2016)]{CheGue16}
+	T.~Chen and C.~Guestrin.
+	\newblock {XGBoost}: {A} scalable tree boosting system.
+	\newblock In \emph{Proc. of ACM SIGKDD Conference on Knowledge 
+	Discovery and
+		Data Mining}, 2016.
+	
+	\bibitem[Dang et~al.(2017)Dang, Huang, and Chang]{DanHuaCha17}
+	H.~Dang, Y.~Huang, and E.-C. Chang.
+	\newblock Evading classifiers by morphing in the dark.
+	\newblock In \emph{Proc. of {ACM} Conference on Computer and 
+	Communications
+		Security ({CCS})}, 2017.
+	
+	\bibitem[Demetrio et~al.(2020{\natexlab{a}})Demetrio, Biggio, 
+	Lagorio, Roli,
+	and Armando]{DemBigLag+20}
+	L.~Demetrio, B.~Biggio, G.~Lagorio, F.~Roli, and A.~Armando.
+	\newblock Efficient black-box optimization of adversarial windows 
+	malware with
+	constrained manipulations.
+	\newblock \emph{arXiv:2003.13526v2}, 2020{\natexlab{a}}.
+	
+	\bibitem[Demetrio et~al.(2020{\natexlab{b}})Demetrio, Coull, 
+	Biggio, Lagorio,
+	Armando, and Roli]{DemCouBig+20}
+	L.~Demetrio, S.~E. Coull, B.~Biggio, G.~Lagorio, A.~Armando, and 
+	F.~Roli.
+	\newblock Adversarial exemples: A survey and experimental 
+	evaluation of
+	practical attacks on machine learning for windows malware detection.
+	\newblock \emph{arXiv:2008.07125}, 2020{\natexlab{b}}.
+	
+	\bibitem[Fogla et~al.(2006)Fogla, Sharif, Perdisci, Kolesnikov, and
+	Lee]{FogShaPerKolLee06}
+	P.~Fogla, M.~Sharif, R.~Perdisci, O.~Kolesnikov, and W.~Lee.
+	\newblock Polymorphic blending attacks.
+	\newblock In \emph{Proc. of {USENIX} Security Symposium}, 2006.
+	
+	\bibitem[Friedman(2000)]{Frie00}
+	J.~H. Friedman.
+	\newblock Greedy function approximation: A gradient boosting 
+	machine.
+	\newblock \emph{Annals of Statistics}, 29, 2000.
+	
+	\bibitem[Gu et~al.(2017)Gu, Dolan{-}Gavitt, and Garg]{GuDolGar17}
+	T.~Gu, B.~Dolan{-}Gavitt, and S.~Garg.
+	\newblock Badnets: Identifying vulnerabilities in the machine 
+	learning model
+	supply chain.
+	\newblock \emph{arXiv:1708.06733}, 2017.
+	
+	\bibitem[\'{I}ncer et~al.(2018)\'{I}ncer, Theodorides, Afroz, and
+	Wagner]{IncTheAfr+18}
+	I.~\'{I}ncer, M.~Theodorides, S.~Afroz, and D.~Wagner.
+	\newblock Adversarially robust malware detection using monotonic
+	classification.
+	\newblock In \emph{Proc. of the {ACM} International Workshop on 
+	Security and
+		Privacy Analytics ({IWSPA})}, 2018.
+	
+	\bibitem[{Jana} and {Shmatikov}(2012)]{JanShm12}
+	S.~{Jana} and V.~{Shmatikov}.
+	\newblock Abusing file processing in malware detectors for fun and 
+	profit.
+	\newblock In \emph{Proc. of {IEEE} Symposium on Security and 
+	Privacy ({S\&P})},
+	2012.
+	
+	\bibitem[Jang et~al.(2011)Jang, Brumley, and 
+	Venkataraman]{JanBruVen11}
+	J.~Jang, D.~Brumley, and S.~Venkataraman.
+	\newblock Bitshred: Feature hashing malware for scalable triage and 
+	semantic
+	analysis.
+	\newblock In \emph{Proc. of {ACM} Conference on Computer and 
+	Communications
+		Security ({CCS})}, 2011.
+	
+	\bibitem[Kolbitsch et~al.(2009)Kolbitsch, Comparetti, Kruegel, 
+	Kirda, yong
+	Zhou, and Wang]{KolComKruKir09}
+	C.~Kolbitsch, P.~M. Comparetti, C.~Kruegel, E.~Kirda, X.~yong Zhou, 
+	and
+	X.~Wang.
+	\newblock Effective and efficient malware detection at the end host.
+	\newblock In \emph{Proc. of {USENIX} Security Symposium}, 2009.
+	
+	\bibitem[Kolosnjaji et~al.(2018)Kolosnjaji, Demontis, Biggio, 
+	Maiorca,
+	Giacinto, Eckert, and Roli]{KolDemBig+18}
+	B.~Kolosnjaji, A.~Demontis, B.~Biggio, D.~Maiorca, G.~Giacinto, 
+	C.~Eckert, and
+	F.~Roli.
+	\newblock Adversarial malware binaries: Evading deep learning for 
+	malware
+	detection in executables.
+	\newblock In \emph{European Signal Processing Conference 
+	({EUSIPCO})}, 2018.
+	
+	\bibitem[Kolter and Maloof(2006)]{KolMal06}
+	J.~Z. Kolter and M.~A. Maloof.
+	\newblock Learning to detect and classify malicious executables in 
+	the wild.
+	\newblock \emph{Journal of Machine Learning Research ({JMLR})}, 7, 
+	2006.
+	
+	\bibitem[Lanzi et~al.(2010)Lanzi, Balzarotti, Kruegel, 
+	Christodorescu, and
+	Kirda]{LanBalKruChr10}
+	A.~Lanzi, D.~Balzarotti, C.~Kruegel, M.~Christodorescu, and 
+	E.~Kirda.
+	\newblock Accessminer: using system-centric models for malware 
+	protection.
+	\newblock In \emph{Proc. of {ACM} Conference on Computer and 
+	Communications
+		Security ({CCS})}, 2010.
+	
+	\bibitem[Liu et~al.(2018)Liu, Ma, Aafer, Lee, Zhai, Wang, and
+	Zhang]{LiuMaAaf+18}
+	Y.~Liu, S.~Ma, Y.~Aafer, W.-C. Lee, J.~Zhai, W.~Wang, and X.~Zhang.
+	\newblock Trojaning attack on neural networks.
+	\newblock In \emph{Proc. of Network and Distributed System Security 
+	Symposium
+		({NDSS})}, 2018.
+	
+	\bibitem[Mariconti et~al.(2017)Mariconti, Onwuzurike, Andriotis, 
+	Cristofaro,
+	Ross, and Stringhini]{MarOnwAndCri+17}
+	E.~Mariconti, L.~Onwuzurike, P.~Andriotis, E.~D. Cristofaro, G.~J. 
+	Ross, and
+	G.~Stringhini.
+	\newblock Mamadroid: Detecting android malware by building markov 
+	chains of
+	behavioral models.
+	\newblock In \emph{Proc. of Network and Distributed System Security 
+	Symposium
+		({NDSS})}, 2017.
+	
+	\bibitem[Moser et~al.(2007)Moser, Kruegel, and Kirda]{MosKruKir07}
+	A.~Moser, C.~Kruegel, and E.~Kirda.
+	\newblock Limits of static analysis for malware detection.
+	\newblock In \emph{Proc. of Annual Computer Security Applications 
+	Conference
+		({ACSAC})}, 2007.
+	
+	\bibitem[Papernot et~al.(2016)Papernot, McDaniel, and 
+	Goodfellow]{PapMcDGoo16b}
+	N.~Papernot, P.~McDaniel, and I.~Goodfellow.
+	\newblock Transferability in machine learning: from phenomena to 
+	black-box
+	attacks using adversarial samples.
+	\newblock \emph{arXiv:1605.07277}, 2016.
+	
+	\bibitem[Perdisci et~al.(2008)Perdisci, Lanzi, and Lee]{PerLanLee08}
+	R.~Perdisci, A.~Lanzi, and W.~Lee.
+	\newblock Mcboost: Boosting scalability in malware collection and 
+	analysis
+	using statistical classification of executables.
+	\newblock In \emph{Proc. of Annual Computer Security Applications 
+	Conference
+		({ACSAC})}, 2008.
+	
+	\bibitem[Pierazzi et~al.(2020)Pierazzi, Pendlebury, Cortellazzi, and
+	Cavallaro]{PiePenCor+20}
+	F.~Pierazzi, F.~Pendlebury, J.~Cortellazzi, and L.~Cavallaro.
+	\newblock Intriguing properties of adversarial {ML} attacks in the 
+	problem
+	space.
+	\newblock In \emph{Proc. of {IEEE} Symposium on Security and 
+	Privacy ({S\&P})},
+	2020.
+	
+	\bibitem[Quiring et~al.(2018)Quiring, Arp, and Rieck]{QuiArpRie18}
+	E.~Quiring, D.~Arp, and K.~Rieck.
+	\newblock Forgotten siblings: {U}nifying attacks on machine 
+	learning and
+	digital watermarking.
+	\newblock In \emph{Proc. of {IEEE} European Symposium on Security 
+	and Privacy
+		({EuroS\&P})}, 2018.
+	
+	\bibitem[Quiring et~al.(2019)Quiring, Maier, and Rieck]{QuiMaiRie19}
+	E.~Quiring, A.~Maier, and K.~Rieck.
+	\newblock Misleading authorship attribution of source code using 
+	adversarial
+	learning.
+	\newblock In \emph{Proc. of {USENIX} Security Symposium}, 2019.
+	
+	\bibitem[Quiring et~al.(2020)Quiring, Klein, Arp, Johns, and
+	Rieck]{QuiKleArpJohRie18}
+	E.~Quiring, D.~Klein, D.~Arp, M.~Johns, and K.~Rieck.
+	\newblock Adversarial preprocessing: {U}nderstanding and preventing
+	image-scaling attacks in machine learning.
+	\newblock In \emph{Proc. of {USENIX} Security Symposium}, 2020.
+	
+	\bibitem[Rieck et~al.(2008)Rieck, Holz, Willems, Düssel, and
+	Laskov]{RieHolWilDue+08}
+	K.~Rieck, T.~Holz, C.~Willems, P.~Düssel, and P.~Laskov.
+	\newblock Learning and classification of malware behavior.
+	\newblock In \emph{Proc. of Conference on Detection of Intrusions 
+	and Malware
+		{\&} Vulnerability Assessment ({DIMVA})}, 2008.
+	
+	\bibitem[Song et~al.(2007)Song, Locasto, Stavrou, and
+	Stolfo]{SonLocStaKerSto07}
+	Y.~Song, M.~E. Locasto, A.~Stavrou, and S.~J. Stolfo.
+	\newblock On the infeasibility of modeling polymorphic shellcode.
+	\newblock In \emph{Proc. of {ACM} Conference on Computer and 
+	Communications
+		Security ({CCS})}, 2007.
+	
+	\bibitem[Tram{\`e}r et~al.(2016)Tram{\`e}r, Zhang, Juels, Reiter, 
+	and
+	Ristenpart]{TraZhaJuel+16}
+	F.~Tram{\`e}r, F.~Zhang, A.~Juels, M.~K. Reiter, and T.~Ristenpart.
+	\newblock Stealing machine learning models via prediction apis.
+	\newblock In \emph{Proc. of {USENIX} Security Symposium}, 2016.
+	
+	\bibitem[\v{S}rndi\'{c} and Laskov(2014)]{RndLas14}
+	N.~\v{S}rndi\'{c} and P.~Laskov.
+	\newblock Practical evasion of a learning-based classifier: A case 
+	study.
+	\newblock In \emph{Proc. of {IEEE} Symposium on Security and 
+	Privacy ({S\&P})},
+	2014.
+	
+	\bibitem[Wagner and Soto(2002)]{WagSot02}
+	D.~Wagner and P.~Soto.
+	\newblock Mimicry attacks on host based intrusion detection systems.
+	\newblock In \emph{Proc. of {ACM} Conference on Computer and 
+	Communications
+		Security ({CCS})}, 2002.
+	
+	\bibitem[Willems et~al.(2007)Willems, Holz, and 
+	Freiling]{WilHolFre07}
+	C.~Willems, T.~Holz, and F.~Freiling.
+	\newblock Toward automated dynamic malware analysis using cwsandbox.
+	\newblock \emph{IEEE Security {\&} Privacy}, 5\penalty0 (2), 2007.
+	
+	\bibitem[Xiao et~al.(2019)Xiao, Chen, Shen, Chen, and 
+	Li]{XiaCheShe+19}
+	Q.~Xiao, Y.~Chen, C.~Shen, Y.~Chen, and K.~Li.
+	\newblock Seeing is not believing: Camouflage attacks on image 
+	scaling
+	algorithms.
+	\newblock In \emph{Proc. of {USENIX} Security Symposium}, 2019.
+	
+	\bibitem[Xu et~al.(2016)Xu, Qi, and Evans]{XuQiEva16}
+	W.~Xu, Y.~Qi, and D.~Evans.
+	\newblock Automatically evading classifiers: A case study on pdf 
+	malware
+	classifiers.
+	\newblock In \emph{Proc. of Network and Distributed System Security 
+	Symposium
+		({NDSS})}, 2016.
+	
+	\vspace{0.25cm}
+	\section*{Web References}
+	\bibitem[Anderson(2020)]{web:GithubContest}
+	H.~Anderson.
+	\newblock 2020 machine learning security evasion competition.
+	\newblock
+	\url{https://github.com/Azure/2020-machine-learning-security-evasion-competition},
+	2020.
+	\newblock (last visited Oct 08, 2020).
+
+	\bibitem[Ceschin and Botacin(2020)]{web:CesBot20}
+	F.~Ceschin and M.~Botacin.
+	\newblock Adversarial malware in machine learning detectors: Our 
+	mlsec 2020’s
+	secrets.
+	\newblock
+	\url{https://secret.inf.ufpr.br/2020/09/29/adversarial-malware-in-machine-learning-detectors-our-mlsec-2020-secrets/},
+	2020.
+	\newblock (last visited Sep 30, 2020).
+	
+	
+	\bibitem[Fleshman(2019)]{web:Fle19}
+	W.~Fleshman.
+	\newblock Evading machine learning malware classifiers.
+	\newblock
+	\url{https://towardsdatascience.com/evading-machine-learning-malware-classifiers-ce52dabdb713},
+	2019.
+	\newblock (last visited Sep 30, 2020).
+	
+	
+	\bibitem[Stanley(2020)]{web:Contest}
+	J.~Stanley.
+	\newblock Machine learning security evasion competition 2020 invites
+	researchers to defend and attack.
+	\newblock
+	\url{https://msrc-blog.microsoft.com/2020/06/01/machine-learning-security-evasion-competition-2020-invites-researchers-to-defend-and-attack/},
+	2020.
+	\newblock (last visited Sep 30, 2020).
+	
+	
+	\bibitem[Wunderwuzzi23(2020)]{web:Wun20}
+	Wunderwuzzi23.
+	\newblock Participating in the microsoft machine learning security 
+	evasion
+	competition - bypassing malware models by signing binaries.
+	\newblock
+	\url{https://embracethered.com/blog/posts/2020/microsoft-machine-learning-security-evasion-competition/},
+	2020.
+	\newblock (last visited Sep 30, 2020).
+	
+\end{thebibliography}
+
+}
+
+\end{document}

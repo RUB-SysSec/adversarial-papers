@@ -1,0 +1,1586 @@
+[
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.13818",
+        "target_reviewer": {
+            "request": [
+                "marcus_peinado"
+            ],
+            "reject": [
+                "tamara_rezk"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/05"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.09014",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "yossi_oren"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/03"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05588",
+        "target_reviewer": {
+            "request": [
+                "giovanni_cherubin"
+            ],
+            "reject": [
+                "feargus_pendlebury"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/02"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2106.09898",
+        "target_reviewer": {
+            "request": [
+                "florian_tram?r"
+            ],
+            "reject": [
+                "feargus_pendlebury"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/06"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.01341",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "sarah_meiklejohn"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/04"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05719",
+        "target_reviewer": {
+            "request": [
+                "leyla_bilge"
+            ],
+            "reject": [
+                "sam_king"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/07"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2106.09898",
+        "target_reviewer": {
+            "request": [
+                "ben_y"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/02"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.03570",
+        "target_reviewer": {
+            "request": [
+                "fabio_pierazzi"
+            ],
+            "reject": [
+                "nicholas_carlini"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/05"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.01967",
+        "target_reviewer": {
+            "request": [
+                "srdjan_capkun"
+            ],
+            "reject": [
+                "wenyuan_xu"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/00"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.09014",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "riccardo_paccagnella"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/04"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.04838",
+        "target_reviewer": {
+            "request": [
+                "tobias_fiebig"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/00"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.08331",
+        "target_reviewer": {
+            "request": [
+                "ben_y"
+            ],
+            "reject": [
+                "battista_biggio"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/01"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2101.11073",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicholas_carlini"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/04"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.09454",
+        "target_reviewer": {
+            "request": [
+                "giovanni_cherubin"
+            ],
+            "reject": [
+                "mario_fritz"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/02"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.06504",
+        "target_reviewer": {
+            "request": [
+                "adria_gascon"
+            ],
+            "reject": [
+                "mario_fritz"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/06"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.10241",
+        "target_reviewer": {
+            "request": [
+                "ben_y"
+            ],
+            "reject": [
+                "nicolas_papernot"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/05"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.03570",
+        "target_reviewer": {
+            "request": [
+                "feargus_pendlebury"
+            ],
+            "reject": [
+                "nicholas_carlini"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/07"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05588",
+        "target_reviewer": {
+            "request": [
+                "ariel_herbert-voss"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/01"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2111.04625",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicolas_papernot"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/02"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.01341",
+        "target_reviewer": {
+            "request": [
+                "abhradeep_guha_thakurta"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/01"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05719",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "riad_wahby"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/07"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.03449",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "jeremiah_blocki"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/03"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2105.05801",
+        "target_reviewer": {
+            "request": [
+                "yuval_yarom"
+            ],
+            "reject": [
+                "cristiano_giuffrida"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/00"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2104.02739",
+        "target_reviewer": {
+            "request": [
+                "nicolas_papernot"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/02"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.08331",
+        "target_reviewer": {
+            "request": [
+                "giovanni_cherubin"
+            ],
+            "reject": [
+                "nicholas_carlini"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/01"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.01967",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "yongdae_kim"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/02"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.08331",
+        "target_reviewer": {
+            "request": [
+                "florian_tram?r"
+            ],
+            "reject": [
+                "neil_gong"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/02"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.01967",
+        "target_reviewer": {
+            "request": [
+                "yongdae_kim"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/06"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05307",
+        "target_reviewer": {
+            "request": [
+                "mario_fritz"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/00"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2010.03856",
+        "target_reviewer": {
+            "request": [
+                "florian_tram?r"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/02"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.00352",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "florian_tram?r"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/01"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2111.04625",
+        "target_reviewer": {
+            "request": [
+                "florian_tram?r"
+            ],
+            "reject": [
+                "nicholas_carlini"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/03"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.03570",
+        "target_reviewer": {
+            "request": [
+                "ariel_herbert-voss"
+            ],
+            "reject": [
+                "nicholas_carlini"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/01"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.01967",
+        "target_reviewer": {
+            "request": [
+                "ahmad-reza_sadeghi"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/02"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.01341",
+        "target_reviewer": {
+            "request": [
+                "yongdae_kim"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/04"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2110.12340",
+        "target_reviewer": {
+            "request": [
+                "yinqian_zhang"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/04"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.03570",
+        "target_reviewer": {
+            "request": [
+                "neil_gong"
+            ],
+            "reject": [
+                "battista_biggio"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/07"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2107.07065",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "elissa_redmiles"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/07"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.04838",
+        "target_reviewer": {
+            "request": [
+                "jean-pierre_seifert"
+            ],
+            "reject": [
+                "chris_brzuska"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/02"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.07498",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "pardis_emami-naeini"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/03"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2101.11073",
+        "target_reviewer": {
+            "request": [
+                "mathias_lecuyer"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/01"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2101.11073",
+        "target_reviewer": {
+            "request": [
+                "ariel_herbert-voss"
+            ],
+            "reject": [
+                "mario_fritz"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/06"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2202.09470",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "andrew_myers"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/05"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.01967",
+        "target_reviewer": {
+            "request": [
+                "aur?lien_francillon"
+            ],
+            "reject": [
+                "wenyuan_xu"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/01"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2010.03856",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "mario_fritz"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/02"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.08331",
+        "target_reviewer": {
+            "request": [
+                "fabio_pierazzi"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/00"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2110.12340",
+        "target_reviewer": {
+            "request": [
+                "christopher_fletcher"
+            ],
+            "reject": [
+                "cl?mentine_maurice"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/01"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.06504",
+        "target_reviewer": {
+            "request": [
+                "fabio_pierazzi"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/05"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.08331",
+        "target_reviewer": {
+            "request": [
+                "fabio_pierazzi"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/01"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05719",
+        "target_reviewer": {
+            "request": [
+                "aur?lien_francillon"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/01"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.01341",
+        "target_reviewer": {
+            "request": [
+                "markulf_kohlweiss"
+            ],
+            "reject": [
+                "giulio_malavolta"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/01"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2111.04625",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "mario_fritz"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/05"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.08331",
+        "target_reviewer": {
+            "request": [
+                "fabio_pierazzi"
+            ],
+            "reject": [
+                "nicolas_papernot"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/06"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.13818",
+        "target_reviewer": {
+            "request": [
+                "riccardo_paccagnella"
+            ],
+            "reject": [
+                "david_kohlbrenner"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/01"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05588",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "mario_fritz"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/03"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.03449",
+        "target_reviewer": {
+            "request": [
+                "mathias_lecuyer"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/03"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05719",
+        "target_reviewer": {
+            "request": [
+                "leyla_bilge"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/04"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.01341",
+        "target_reviewer": {
+            "request": [
+                "matteo_maffei"
+            ],
+            "reject": [
+                "nick_hopper"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/07"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.04838",
+        "target_reviewer": {
+            "request": [
+                "alice_hutchings"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/07"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2202.09470",
+        "target_reviewer": {
+            "request": [
+                "v?ronique_cortier"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/04"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2106.09898",
+        "target_reviewer": {
+            "request": [
+                "qi_li"
+            ],
+            "reject": [
+                "nicolas_papernot"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/00"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2101.11073",
+        "target_reviewer": {
+            "request": [
+                "florian_tram?r"
+            ],
+            "reject": [
+                "nicolas_papernot"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/00"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2201.04845",
+        "target_reviewer": {
+            "request": [
+                "mathias_lecuyer"
+            ],
+            "reject": [
+                "nicholas_carlini"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/02"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.13818",
+        "target_reviewer": {
+            "request": [
+                "herbert_bos"
+            ],
+            "reject": [
+                "tiffany_bao"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/07"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2202.09470",
+        "target_reviewer": {
+            "request": [
+                "cas_cremers"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/05"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2104.02739",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "abhradeep_guha_thakurta"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/03"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2105.05801",
+        "target_reviewer": {
+            "request": [
+                "marcus_peinado"
+            ],
+            "reject": [
+                "cl?mentine_maurice"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/01"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2110.12340",
+        "target_reviewer": {
+            "request": [
+                "christopher_fletcher"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/06"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2107.07065",
+        "target_reviewer": {
+            "request": [
+                "fabio_pierazzi"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/04"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.09293",
+        "target_reviewer": {
+            "request": [
+                "sascha_fahl"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/07"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05719",
+        "target_reviewer": {
+            "request": [
+                "sam_king"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/05"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.08331",
+        "target_reviewer": {
+            "request": [
+                "giovanni_cherubin"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/02"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.08331",
+        "target_reviewer": {
+            "request": [
+                "feargus_pendlebury"
+            ],
+            "reject": [
+                "nicholas_carlini"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/03"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.07498",
+        "target_reviewer": {
+            "request": [
+                "danny_yuxing_huang"
+            ],
+            "reject": [
+                "alice_hutchings"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/00"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2104.02739",
+        "target_reviewer": {
+            "request": [
+                "jeremiah_blocki"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/04"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.09014",
+        "target_reviewer": {
+            "request": [
+                "kai_chen"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/06"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2010.12450",
+        "target_reviewer": {
+            "request": [
+                "ariel_herbert-voss"
+            ],
+            "reject": [
+                "v?ronique_cortier"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/06"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2010.03856",
+        "target_reviewer": {
+            "request": [
+                "ariel_herbert-voss"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/02"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2104.08638",
+        "target_reviewer": {
+            "request": [
+                "brendan_saltaformaggio"
+            ],
+            "reject": [
+                "fraser_brown"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/01"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2107.04284",
+        "target_reviewer": {
+            "request": [
+                "florian_tram?r"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/05"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2111.04625",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "nicholas_carlini"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/06"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.03570",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "battista_biggio"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/00"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2111.04625",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "florian_tram?r"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/07"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.01967",
+        "target_reviewer": {
+            "request": [
+                "yongdae_kim"
+            ],
+            "reject": [
+                "kai_chen"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/06"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05307",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "ninghui_li"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/05"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.03449",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "mathias_lecuyer"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/02"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.13818",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "lucas_davi"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/04"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.10241",
+        "target_reviewer": {
+            "request": [
+                "florian_tram?r"
+            ],
+            "reject": [
+                "mario_fritz"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/04"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2010.12450",
+        "target_reviewer": {
+            "request": [
+                "karthikeyan_bhargavan"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/04"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.04838",
+        "target_reviewer": {
+            "request": [
+                "gururaj_saileshwar"
+            ],
+            "reject": [
+                "stefano_tessaro"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/03"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2111.04625",
+        "target_reviewer": {
+            "request": [
+                "florian_tram?r"
+            ],
+            "reject": [
+                "gururaj_saileshwar"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/04"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2010.03856",
+        "target_reviewer": {
+            "request": [
+                "giovanni_cherubin"
+            ],
+            "reject": [
+                "battista_biggio"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/00"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.06504",
+        "target_reviewer": {
+            "request": [
+                "jeremiah_blocki"
+            ],
+            "reject": [
+                "ariel_herbert-voss"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/00"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2010.12450",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "adria_gascon"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/07"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.03449",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "abhradeep_guha_thakurta"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/00"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.13818",
+        "target_reviewer": {
+            "request": [
+                "christopher_fletcher"
+            ],
+            "reject": [
+                "david_kohlbrenner"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/06"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2010.03856",
+        "target_reviewer": {
+            "request": [
+                "florian_tram?r"
+            ],
+            "reject": [
+                "nicholas_carlini"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/04"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.04838",
+        "target_reviewer": {
+            "request": [],
+            "reject": [
+                "peter_schwabe"
+            ]
+        },
+        "victim_models": [
+            "hypersearch/victim/00"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.00352",
+        "target_reviewer": {
+            "request": [
+                "ben_y"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/05"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.03570",
+        "target_reviewer": {
+            "request": [
+                "neil_gong"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "hypersearch/victim/06"
+        ],
+        "surrogate_models": [
+            "hypersearch/overlap_0.70/00"
+        ]
+    }
+]

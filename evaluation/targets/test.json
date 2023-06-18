@@ -1,0 +1,17 @@
+[
+    {
+        "submission": "test",
+        "target_reviewer": {
+            "request": [
+                "emily_stark"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "test"
+        ],
+        "surrogate_models": [
+            "test"
+        ]
+    }
+]

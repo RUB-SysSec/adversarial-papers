@@ -1,0 +1,2902 @@
+[
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2104.08638",
+        "target_reviewer": {
+            "request": [
+                "yan_shoshitaishvili"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/03",
+            "overlap_0.70/07",
+            "overlap_0.70/14",
+            "overlap_0.70/10",
+            "overlap_0.70/06",
+            "overlap_0.70/11",
+            "overlap_0.70/12",
+            "overlap_0.70/15"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2010.12450",
+        "target_reviewer": {
+            "request": [
+                "karthikeyan_bhargavan"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/14",
+            "overlap_0.70/07",
+            "overlap_0.70/03",
+            "overlap_0.70/10",
+            "overlap_0.70/02",
+            "overlap_0.70/11",
+            "overlap_0.70/15",
+            "overlap_0.70/06"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.01341",
+        "target_reviewer": {
+            "request": [
+                "thorsten_strufe"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/09",
+            "overlap_0.70/01",
+            "overlap_0.70/03",
+            "overlap_0.70/04",
+            "overlap_0.70/11",
+            "overlap_0.70/10",
+            "overlap_0.70/15",
+            "overlap_0.70/12"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2104.08638",
+        "target_reviewer": {
+            "request": [
+                "brendan_saltaformaggio"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/05",
+            "overlap_0.70/13",
+            "overlap_0.70/04",
+            "overlap_0.70/11",
+            "overlap_0.70/01",
+            "overlap_0.70/14",
+            "overlap_0.70/02",
+            "overlap_0.70/09"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05224",
+        "target_reviewer": {
+            "request": [
+                "ariel_herbert-voss"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/06",
+            "overlap_0.70/07",
+            "overlap_0.70/10",
+            "overlap_0.70/04",
+            "overlap_0.70/03",
+            "overlap_0.70/00",
+            "overlap_0.70/02",
+            "overlap_0.70/05"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2010.03856",
+        "target_reviewer": {
+            "request": [
+                "florian_tram?r"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/00",
+            "overlap_0.70/10",
+            "overlap_0.70/14",
+            "overlap_0.70/13",
+            "overlap_0.70/04",
+            "overlap_0.70/06",
+            "overlap_0.70/15",
+            "overlap_0.70/12"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.09454",
+        "target_reviewer": {
+            "request": [
+                "florian_tram?r"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/01",
+            "overlap_0.70/09",
+            "overlap_0.70/02",
+            "overlap_0.70/06",
+            "overlap_0.70/10",
+            "overlap_0.70/03",
+            "overlap_0.70/13",
+            "overlap_0.70/14"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2105.05801",
+        "target_reviewer": {
+            "request": [
+                "marcus_peinado"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/09",
+            "overlap_0.70/13",
+            "overlap_0.70/05",
+            "overlap_0.70/07",
+            "overlap_0.70/14",
+            "overlap_0.70/12",
+            "overlap_0.70/00",
+            "overlap_0.70/03"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.06504",
+        "target_reviewer": {
+            "request": [
+                "battista_biggio"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/06",
+            "overlap_0.70/14",
+            "overlap_0.70/07",
+            "overlap_0.70/10",
+            "overlap_0.70/05",
+            "overlap_0.70/03",
+            "overlap_0.70/15",
+            "overlap_0.70/13"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.09014",
+        "target_reviewer": {
+            "request": [
+                "kassem_fawaz"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/01",
+            "overlap_0.70/00",
+            "overlap_0.70/14",
+            "overlap_0.70/07",
+            "overlap_0.70/05",
+            "overlap_0.70/09",
+            "overlap_0.70/03",
+            "overlap_0.70/10"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2201.04845",
+        "target_reviewer": {
+            "request": [
+                "mathias_lecuyer"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/02",
+            "overlap_0.70/03",
+            "overlap_0.70/04",
+            "overlap_0.70/08",
+            "overlap_0.70/13",
+            "overlap_0.70/11",
+            "overlap_0.70/05",
+            "overlap_0.70/07"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.01341",
+        "target_reviewer": {
+            "request": [
+                "sunoo_park"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/12",
+            "overlap_0.70/15",
+            "overlap_0.70/10",
+            "overlap_0.70/05",
+            "overlap_0.70/11",
+            "overlap_0.70/04",
+            "overlap_0.70/02",
+            "overlap_0.70/13"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05588",
+        "target_reviewer": {
+            "request": [
+                "florian_tram?r"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/01",
+            "overlap_0.70/14",
+            "overlap_0.70/08",
+            "overlap_0.70/13",
+            "overlap_0.70/15",
+            "overlap_0.70/00",
+            "overlap_0.70/06",
+            "overlap_0.70/10"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.01967",
+        "target_reviewer": {
+            "request": [
+                "kassem_fawaz"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/11",
+            "overlap_0.70/00",
+            "overlap_0.70/03",
+            "overlap_0.70/10",
+            "overlap_0.70/07",
+            "overlap_0.70/13",
+            "overlap_0.70/12",
+            "overlap_0.70/15"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05307",
+        "target_reviewer": {
+            "request": [
+                "ninghui_li"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/00",
+            "overlap_0.70/15",
+            "overlap_0.70/10",
+            "overlap_0.70/01",
+            "overlap_0.70/06",
+            "overlap_0.70/12",
+            "overlap_0.70/14",
+            "overlap_0.70/07"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2105.05801",
+        "target_reviewer": {
+            "request": [
+                "christopher_fletcher"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/02",
+            "overlap_0.70/10",
+            "overlap_0.70/03",
+            "overlap_0.70/15",
+            "overlap_0.70/04",
+            "overlap_0.70/06",
+            "overlap_0.70/00",
+            "overlap_0.70/11"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.10241",
+        "target_reviewer": {
+            "request": [
+                "tudor_dumitras"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/12",
+            "overlap_0.70/14",
+            "overlap_0.70/03",
+            "overlap_0.70/00",
+            "overlap_0.70/02",
+            "overlap_0.70/04",
+            "overlap_0.70/10",
+            "overlap_0.70/13"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2107.04284",
+        "target_reviewer": {
+            "request": [
+                "qi_li"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/09",
+            "overlap_0.70/05",
+            "overlap_0.70/03",
+            "overlap_0.70/06",
+            "overlap_0.70/00",
+            "overlap_0.70/02",
+            "overlap_0.70/04",
+            "overlap_0.70/11"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.07498",
+        "target_reviewer": {
+            "request": [
+                "alice_hutchings"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/09",
+            "overlap_0.70/07",
+            "overlap_0.70/08",
+            "overlap_0.70/13",
+            "overlap_0.70/10",
+            "overlap_0.70/06",
+            "overlap_0.70/14",
+            "overlap_0.70/01"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.08331",
+        "target_reviewer": {
+            "request": [
+                "tudor_dumitras"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/00",
+            "overlap_0.70/09",
+            "overlap_0.70/01",
+            "overlap_0.70/12",
+            "overlap_0.70/07",
+            "overlap_0.70/05",
+            "overlap_0.70/10",
+            "overlap_0.70/11"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05588",
+        "target_reviewer": {
+            "request": [
+                "feargus_pendlebury"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/11",
+            "overlap_0.70/00",
+            "overlap_0.70/05",
+            "overlap_0.70/03",
+            "overlap_0.70/15",
+            "overlap_0.70/07",
+            "overlap_0.70/08",
+            "overlap_0.70/02"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2110.12340",
+        "target_reviewer": {
+            "request": [
+                "yossi_oren"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/09",
+            "overlap_0.70/14",
+            "overlap_0.70/02",
+            "overlap_0.70/05",
+            "overlap_0.70/04",
+            "overlap_0.70/12",
+            "overlap_0.70/11",
+            "overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.09454",
+        "target_reviewer": {
+            "request": [
+                "fabio_pierazzi"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/10",
+            "overlap_0.70/04",
+            "overlap_0.70/12",
+            "overlap_0.70/15",
+            "overlap_0.70/01",
+            "overlap_0.70/08",
+            "overlap_0.70/03",
+            "overlap_0.70/05"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.06504",
+        "target_reviewer": {
+            "request": [
+                "nicholas_carlini"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/04",
+            "overlap_0.70/09",
+            "overlap_0.70/05",
+            "overlap_0.70/10",
+            "overlap_0.70/15",
+            "overlap_0.70/00",
+            "overlap_0.70/12",
+            "overlap_0.70/03"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05307",
+        "target_reviewer": {
+            "request": [
+                "mario_fritz"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/15",
+            "overlap_0.70/14",
+            "overlap_0.70/10",
+            "overlap_0.70/06",
+            "overlap_0.70/02",
+            "overlap_0.70/01",
+            "overlap_0.70/08",
+            "overlap_0.70/07"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05588",
+        "target_reviewer": {
+            "request": [
+                "fabio_pierazzi"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/09",
+            "overlap_0.70/15",
+            "overlap_0.70/08",
+            "overlap_0.70/14",
+            "overlap_0.70/11",
+            "overlap_0.70/13",
+            "overlap_0.70/12",
+            "overlap_0.70/06"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.04838",
+        "target_reviewer": {
+            "request": [
+                "emily_shen"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/00",
+            "overlap_0.70/02",
+            "overlap_0.70/01",
+            "overlap_0.70/08",
+            "overlap_0.70/12",
+            "overlap_0.70/10",
+            "overlap_0.70/09",
+            "overlap_0.70/13"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2104.02739",
+        "target_reviewer": {
+            "request": [
+                "emily_shen"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/13",
+            "overlap_0.70/10",
+            "overlap_0.70/12",
+            "overlap_0.70/09",
+            "overlap_0.70/14",
+            "overlap_0.70/06",
+            "overlap_0.70/00",
+            "overlap_0.70/03"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.07498",
+        "target_reviewer": {
+            "request": [
+                "iulia_ion"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/05",
+            "overlap_0.70/07",
+            "overlap_0.70/06",
+            "overlap_0.70/04",
+            "overlap_0.70/03",
+            "overlap_0.70/14",
+            "overlap_0.70/11",
+            "overlap_0.70/01"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.03570",
+        "target_reviewer": {
+            "request": [
+                "feargus_pendlebury"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/00",
+            "overlap_0.70/06",
+            "overlap_0.70/01",
+            "overlap_0.70/14",
+            "overlap_0.70/12",
+            "overlap_0.70/10",
+            "overlap_0.70/09",
+            "overlap_0.70/02"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.09293",
+        "target_reviewer": {
+            "request": [
+                "antonio_bianchi"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/15",
+            "overlap_0.70/08",
+            "overlap_0.70/07",
+            "overlap_0.70/06",
+            "overlap_0.70/14",
+            "overlap_0.70/09",
+            "overlap_0.70/02",
+            "overlap_0.70/13"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.06504",
+        "target_reviewer": {
+            "request": [
+                "mathias_lecuyer"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/06",
+            "overlap_0.70/09",
+            "overlap_0.70/00",
+            "overlap_0.70/08",
+            "overlap_0.70/05",
+            "overlap_0.70/14",
+            "overlap_0.70/07",
+            "overlap_0.70/12"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2104.08638",
+        "target_reviewer": {
+            "request": [
+                "marco_guarnieri"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/10",
+            "overlap_0.70/15",
+            "overlap_0.70/14",
+            "overlap_0.70/03",
+            "overlap_0.70/12",
+            "overlap_0.70/07",
+            "overlap_0.70/06",
+            "overlap_0.70/04"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.13818",
+        "target_reviewer": {
+            "request": [
+                "tamara_rezk"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/03",
+            "overlap_0.70/02",
+            "overlap_0.70/00",
+            "overlap_0.70/12",
+            "overlap_0.70/11",
+            "overlap_0.70/10",
+            "overlap_0.70/13",
+            "overlap_0.70/14"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.07498",
+        "target_reviewer": {
+            "request": [
+                "sascha_fahl"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/04",
+            "overlap_0.70/02",
+            "overlap_0.70/11",
+            "overlap_0.70/13",
+            "overlap_0.70/01",
+            "overlap_0.70/09",
+            "overlap_0.70/15",
+            "overlap_0.70/12"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.13818",
+        "target_reviewer": {
+            "request": [
+                "yinqian_zhang"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/13",
+            "overlap_0.70/01",
+            "overlap_0.70/02",
+            "overlap_0.70/05",
+            "overlap_0.70/12",
+            "overlap_0.70/06",
+            "overlap_0.70/00",
+            "overlap_0.70/07"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2105.05801",
+        "target_reviewer": {
+            "request": [
+                "yinqian_zhang"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/08",
+            "overlap_0.70/15",
+            "overlap_0.70/05",
+            "overlap_0.70/06",
+            "overlap_0.70/04",
+            "overlap_0.70/09",
+            "overlap_0.70/14",
+            "overlap_0.70/13"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2010.12450",
+        "target_reviewer": {
+            "request": [
+                "michael_hicks"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/04",
+            "overlap_0.70/12",
+            "overlap_0.70/11",
+            "overlap_0.70/00",
+            "overlap_0.70/06",
+            "overlap_0.70/10",
+            "overlap_0.70/08",
+            "overlap_0.70/02"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2111.04625",
+        "target_reviewer": {
+            "request": [
+                "yuval_yarom"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/15",
+            "overlap_0.70/12",
+            "overlap_0.70/08",
+            "overlap_0.70/14",
+            "overlap_0.70/09",
+            "overlap_0.70/05",
+            "overlap_0.70/11",
+            "overlap_0.70/02"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2104.02739",
+        "target_reviewer": {
+            "request": [
+                "ariel_herbert-voss"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/10",
+            "overlap_0.70/15",
+            "overlap_0.70/03",
+            "overlap_0.70/01",
+            "overlap_0.70/07",
+            "overlap_0.70/06",
+            "overlap_0.70/00",
+            "overlap_0.70/05"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.03570",
+        "target_reviewer": {
+            "request": [
+                "fabio_pierazzi"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/12",
+            "overlap_0.70/11",
+            "overlap_0.70/01",
+            "overlap_0.70/10",
+            "overlap_0.70/08",
+            "overlap_0.70/00",
+            "overlap_0.70/15",
+            "overlap_0.70/07"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2107.07065",
+        "target_reviewer": {
+            "request": [
+                "juraj_somorovsky"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/03",
+            "overlap_0.70/07",
+            "overlap_0.70/02",
+            "overlap_0.70/08",
+            "overlap_0.70/06",
+            "overlap_0.70/12",
+            "overlap_0.70/09",
+            "overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2201.04845",
+        "target_reviewer": {
+            "request": [
+                "ben_y"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/02",
+            "overlap_0.70/11",
+            "overlap_0.70/03",
+            "overlap_0.70/10",
+            "overlap_0.70/07",
+            "overlap_0.70/06",
+            "overlap_0.70/09",
+            "overlap_0.70/12"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.06504",
+        "target_reviewer": {
+            "request": [
+                "adria_gascon"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/00",
+            "overlap_0.70/01",
+            "overlap_0.70/12",
+            "overlap_0.70/13",
+            "overlap_0.70/10",
+            "overlap_0.70/07",
+            "overlap_0.70/11",
+            "overlap_0.70/08"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2107.04284",
+        "target_reviewer": {
+            "request": [
+                "fabio_pierazzi"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/07",
+            "overlap_0.70/09",
+            "overlap_0.70/00",
+            "overlap_0.70/10",
+            "overlap_0.70/03",
+            "overlap_0.70/12",
+            "overlap_0.70/05",
+            "overlap_0.70/06"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.09293",
+        "target_reviewer": {
+            "request": [
+                "brendan_saltaformaggio"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/05",
+            "overlap_0.70/08",
+            "overlap_0.70/15",
+            "overlap_0.70/11",
+            "overlap_0.70/01",
+            "overlap_0.70/09",
+            "overlap_0.70/13",
+            "overlap_0.70/06"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.04838",
+        "target_reviewer": {
+            "request": [
+                "yuval_yarom"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/09",
+            "overlap_0.70/01",
+            "overlap_0.70/12",
+            "overlap_0.70/05",
+            "overlap_0.70/00",
+            "overlap_0.70/14",
+            "overlap_0.70/08",
+            "overlap_0.70/15"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.03570",
+        "target_reviewer": {
+            "request": [
+                "florian_tram?r"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/09",
+            "overlap_0.70/01",
+            "overlap_0.70/14",
+            "overlap_0.70/08",
+            "overlap_0.70/04",
+            "overlap_0.70/06",
+            "overlap_0.70/05",
+            "overlap_0.70/10"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2106.09898",
+        "target_reviewer": {
+            "request": [
+                "ariel_herbert-voss"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/10",
+            "overlap_0.70/11",
+            "overlap_0.70/14",
+            "overlap_0.70/02",
+            "overlap_0.70/12",
+            "overlap_0.70/09",
+            "overlap_0.70/01",
+            "overlap_0.70/13"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2201.04845",
+        "target_reviewer": {
+            "request": [
+                "neil_gong"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/15",
+            "overlap_0.70/00",
+            "overlap_0.70/07",
+            "overlap_0.70/11",
+            "overlap_0.70/09",
+            "overlap_0.70/05",
+            "overlap_0.70/13",
+            "overlap_0.70/04"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.01341",
+        "target_reviewer": {
+            "request": [
+                "matteo_maffei"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/04",
+            "overlap_0.70/08",
+            "overlap_0.70/07",
+            "overlap_0.70/03",
+            "overlap_0.70/11",
+            "overlap_0.70/06",
+            "overlap_0.70/09",
+            "overlap_0.70/02"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.00352",
+        "target_reviewer": {
+            "request": [
+                "fabio_pierazzi"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/02",
+            "overlap_0.70/05",
+            "overlap_0.70/09",
+            "overlap_0.70/06",
+            "overlap_0.70/07",
+            "overlap_0.70/04",
+            "overlap_0.70/15",
+            "overlap_0.70/03"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2104.02739",
+        "target_reviewer": {
+            "request": [
+                "david_cash"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/10",
+            "overlap_0.70/06",
+            "overlap_0.70/13",
+            "overlap_0.70/12",
+            "overlap_0.70/04",
+            "overlap_0.70/11",
+            "overlap_0.70/02",
+            "overlap_0.70/01"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.13818",
+        "target_reviewer": {
+            "request": [
+                "christopher_fletcher"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/06",
+            "overlap_0.70/11",
+            "overlap_0.70/13",
+            "overlap_0.70/07",
+            "overlap_0.70/02",
+            "overlap_0.70/04",
+            "overlap_0.70/12",
+            "overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2202.09470",
+        "target_reviewer": {
+            "request": [
+                "feargus_pendlebury"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/02",
+            "overlap_0.70/14",
+            "overlap_0.70/10",
+            "overlap_0.70/11",
+            "overlap_0.70/00",
+            "overlap_0.70/05",
+            "overlap_0.70/12",
+            "overlap_0.70/07"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.00352",
+        "target_reviewer": {
+            "request": [
+                "feargus_pendlebury"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/01",
+            "overlap_0.70/04",
+            "overlap_0.70/09",
+            "overlap_0.70/03",
+            "overlap_0.70/13",
+            "overlap_0.70/14",
+            "overlap_0.70/11",
+            "overlap_0.70/15"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2101.11073",
+        "target_reviewer": {
+            "request": [
+                "ben_y"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/08",
+            "overlap_0.70/02",
+            "overlap_0.70/09",
+            "overlap_0.70/00",
+            "overlap_0.70/04",
+            "overlap_0.70/01",
+            "overlap_0.70/10",
+            "overlap_0.70/11"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.09293",
+        "target_reviewer": {
+            "request": [
+                "taesoo_kim"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/05",
+            "overlap_0.70/14",
+            "overlap_0.70/01",
+            "overlap_0.70/08",
+            "overlap_0.70/04",
+            "overlap_0.70/10",
+            "overlap_0.70/03",
+            "overlap_0.70/07"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05588",
+        "target_reviewer": {
+            "request": [
+                "qi_li"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/13",
+            "overlap_0.70/10",
+            "overlap_0.70/07",
+            "overlap_0.70/01",
+            "overlap_0.70/00",
+            "overlap_0.70/08",
+            "overlap_0.70/14",
+            "overlap_0.70/15"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2010.03856",
+        "target_reviewer": {
+            "request": [
+                "ariel_herbert-voss"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/05",
+            "overlap_0.70/06",
+            "overlap_0.70/02",
+            "overlap_0.70/04",
+            "overlap_0.70/11",
+            "overlap_0.70/00",
+            "overlap_0.70/07",
+            "overlap_0.70/08"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2105.05801",
+        "target_reviewer": {
+            "request": [
+                "herbert_bos"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/15",
+            "overlap_0.70/00",
+            "overlap_0.70/01",
+            "overlap_0.70/13",
+            "overlap_0.70/03",
+            "overlap_0.70/02",
+            "overlap_0.70/06",
+            "overlap_0.70/04"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2107.04284",
+        "target_reviewer": {
+            "request": [
+                "feargus_pendlebury"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/15",
+            "overlap_0.70/08",
+            "overlap_0.70/12",
+            "overlap_0.70/09",
+            "overlap_0.70/11",
+            "overlap_0.70/02",
+            "overlap_0.70/10",
+            "overlap_0.70/05"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2101.11073",
+        "target_reviewer": {
+            "request": [
+                "fabio_pierazzi"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/03",
+            "overlap_0.70/15",
+            "overlap_0.70/01",
+            "overlap_0.70/08",
+            "overlap_0.70/06",
+            "overlap_0.70/00",
+            "overlap_0.70/05",
+            "overlap_0.70/12"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2107.07065",
+        "target_reviewer": {
+            "request": [
+                "antonio_bianchi"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/02",
+            "overlap_0.70/06",
+            "overlap_0.70/07",
+            "overlap_0.70/05",
+            "overlap_0.70/10",
+            "overlap_0.70/15",
+            "overlap_0.70/11",
+            "overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.07498",
+        "target_reviewer": {
+            "request": [
+                "katharina_krombholz"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/12",
+            "overlap_0.70/03",
+            "overlap_0.70/15",
+            "overlap_0.70/06",
+            "overlap_0.70/04",
+            "overlap_0.70/07",
+            "overlap_0.70/05",
+            "overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.00352",
+        "target_reviewer": {
+            "request": [
+                "tudor_dumitras"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/08",
+            "overlap_0.70/12",
+            "overlap_0.70/00",
+            "overlap_0.70/05",
+            "overlap_0.70/07",
+            "overlap_0.70/11",
+            "overlap_0.70/10",
+            "overlap_0.70/03"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05588",
+        "target_reviewer": {
+            "request": [
+                "ben_y"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/02",
+            "overlap_0.70/13",
+            "overlap_0.70/15",
+            "overlap_0.70/05",
+            "overlap_0.70/06",
+            "overlap_0.70/04",
+            "overlap_0.70/03",
+            "overlap_0.70/01"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.03449",
+        "target_reviewer": {
+            "request": [
+                "paul_grubbs"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/08",
+            "overlap_0.70/09",
+            "overlap_0.70/10",
+            "overlap_0.70/13",
+            "overlap_0.70/04",
+            "overlap_0.70/07",
+            "overlap_0.70/03",
+            "overlap_0.70/05"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.07498",
+        "target_reviewer": {
+            "request": [
+                "markus_duermuth"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/05",
+            "overlap_0.70/06",
+            "overlap_0.70/00",
+            "overlap_0.70/13",
+            "overlap_0.70/07",
+            "overlap_0.70/15",
+            "overlap_0.70/11",
+            "overlap_0.70/14"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2101.11073",
+        "target_reviewer": {
+            "request": [
+                "ariel_herbert-voss"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/14",
+            "overlap_0.70/13",
+            "overlap_0.70/04",
+            "overlap_0.70/01",
+            "overlap_0.70/08",
+            "overlap_0.70/07",
+            "overlap_0.70/09",
+            "overlap_0.70/05"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2101.11073",
+        "target_reviewer": {
+            "request": [
+                "abhradeep_guha_thakurta"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/06",
+            "overlap_0.70/11",
+            "overlap_0.70/08",
+            "overlap_0.70/04",
+            "overlap_0.70/00",
+            "overlap_0.70/05",
+            "overlap_0.70/13",
+            "overlap_0.70/15"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.01967",
+        "target_reviewer": {
+            "request": [
+                "yuan_tian"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/15",
+            "overlap_0.70/09",
+            "overlap_0.70/03",
+            "overlap_0.70/01",
+            "overlap_0.70/13",
+            "overlap_0.70/04",
+            "overlap_0.70/07",
+            "overlap_0.70/08"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2010.12450",
+        "target_reviewer": {
+            "request": [
+                "jeremiah_blocki"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/03",
+            "overlap_0.70/08",
+            "overlap_0.70/02",
+            "overlap_0.70/15",
+            "overlap_0.70/09",
+            "overlap_0.70/04",
+            "overlap_0.70/05",
+            "overlap_0.70/06"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.09454",
+        "target_reviewer": {
+            "request": [
+                "ben_y"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/14",
+            "overlap_0.70/13",
+            "overlap_0.70/04",
+            "overlap_0.70/12",
+            "overlap_0.70/10",
+            "overlap_0.70/15",
+            "overlap_0.70/02",
+            "overlap_0.70/01"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2106.09898",
+        "target_reviewer": {
+            "request": [
+                "fabio_pierazzi"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/04",
+            "overlap_0.70/09",
+            "overlap_0.70/11",
+            "overlap_0.70/14",
+            "overlap_0.70/00",
+            "overlap_0.70/10",
+            "overlap_0.70/05",
+            "overlap_0.70/03"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05224",
+        "target_reviewer": {
+            "request": [
+                "feargus_pendlebury"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/09",
+            "overlap_0.70/11",
+            "overlap_0.70/05",
+            "overlap_0.70/12",
+            "overlap_0.70/00",
+            "overlap_0.70/04",
+            "overlap_0.70/07",
+            "overlap_0.70/14"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2010.03856",
+        "target_reviewer": {
+            "request": [
+                "neil_gong"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/15",
+            "overlap_0.70/00",
+            "overlap_0.70/14",
+            "overlap_0.70/07",
+            "overlap_0.70/03",
+            "overlap_0.70/12",
+            "overlap_0.70/04",
+            "overlap_0.70/02"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.03449",
+        "target_reviewer": {
+            "request": [
+                "ariel_herbert-voss"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/06",
+            "overlap_0.70/07",
+            "overlap_0.70/15",
+            "overlap_0.70/08",
+            "overlap_0.70/00",
+            "overlap_0.70/01",
+            "overlap_0.70/14",
+            "overlap_0.70/10"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2110.12340",
+        "target_reviewer": {
+            "request": [
+                "riccardo_paccagnella"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/12",
+            "overlap_0.70/07",
+            "overlap_0.70/10",
+            "overlap_0.70/08",
+            "overlap_0.70/04",
+            "overlap_0.70/14",
+            "overlap_0.70/11",
+            "overlap_0.70/09"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.03449",
+        "target_reviewer": {
+            "request": [
+                "boris_k?pf"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/02",
+            "overlap_0.70/09",
+            "overlap_0.70/15",
+            "overlap_0.70/07",
+            "overlap_0.70/13",
+            "overlap_0.70/12",
+            "overlap_0.70/10",
+            "overlap_0.70/01"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2110.12340",
+        "target_reviewer": {
+            "request": [
+                "david_kohlbrenner"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/07",
+            "overlap_0.70/09",
+            "overlap_0.70/10",
+            "overlap_0.70/14",
+            "overlap_0.70/00",
+            "overlap_0.70/06",
+            "overlap_0.70/04",
+            "overlap_0.70/11"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05307",
+        "target_reviewer": {
+            "request": [
+                "neil_gong"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/11",
+            "overlap_0.70/00",
+            "overlap_0.70/08",
+            "overlap_0.70/07",
+            "overlap_0.70/04",
+            "overlap_0.70/06",
+            "overlap_0.70/05",
+            "overlap_0.70/13"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.03570",
+        "target_reviewer": {
+            "request": [
+                "ariel_herbert-voss"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/01",
+            "overlap_0.70/03",
+            "overlap_0.70/02",
+            "overlap_0.70/07",
+            "overlap_0.70/08",
+            "overlap_0.70/12",
+            "overlap_0.70/05",
+            "overlap_0.70/10"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2010.03856",
+        "target_reviewer": {
+            "request": [
+                "nicholas_carlini"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/15",
+            "overlap_0.70/08",
+            "overlap_0.70/14",
+            "overlap_0.70/01",
+            "overlap_0.70/02",
+            "overlap_0.70/00",
+            "overlap_0.70/04",
+            "overlap_0.70/10"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2110.12340",
+        "target_reviewer": {
+            "request": [
+                "marcus_peinado"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/04",
+            "overlap_0.70/13",
+            "overlap_0.70/08",
+            "overlap_0.70/12",
+            "overlap_0.70/11",
+            "overlap_0.70/06",
+            "overlap_0.70/15",
+            "overlap_0.70/02"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.08331",
+        "target_reviewer": {
+            "request": [
+                "ben_y"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/13",
+            "overlap_0.70/11",
+            "overlap_0.70/05",
+            "overlap_0.70/01",
+            "overlap_0.70/12",
+            "overlap_0.70/03",
+            "overlap_0.70/10",
+            "overlap_0.70/09"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.03449",
+        "target_reviewer": {
+            "request": [
+                "olya_ohrimenko"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/04",
+            "overlap_0.70/13",
+            "overlap_0.70/09",
+            "overlap_0.70/01",
+            "overlap_0.70/02",
+            "overlap_0.70/11",
+            "overlap_0.70/03",
+            "overlap_0.70/06"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2202.09470",
+        "target_reviewer": {
+            "request": [
+                "fabio_pierazzi"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/13",
+            "overlap_0.70/10",
+            "overlap_0.70/03",
+            "overlap_0.70/06",
+            "overlap_0.70/08",
+            "overlap_0.70/00",
+            "overlap_0.70/05",
+            "overlap_0.70/09"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.10241",
+        "target_reviewer": {
+            "request": [
+                "feargus_pendlebury"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/15",
+            "overlap_0.70/08",
+            "overlap_0.70/03",
+            "overlap_0.70/09",
+            "overlap_0.70/05",
+            "overlap_0.70/13",
+            "overlap_0.70/07",
+            "overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.09014",
+        "target_reviewer": {
+            "request": [
+                "jean-pierre_seifert"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/10",
+            "overlap_0.70/00",
+            "overlap_0.70/12",
+            "overlap_0.70/05",
+            "overlap_0.70/11",
+            "overlap_0.70/09",
+            "overlap_0.70/02",
+            "overlap_0.70/01"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05224",
+        "target_reviewer": {
+            "request": [
+                "ben_y"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/00",
+            "overlap_0.70/06",
+            "overlap_0.70/05",
+            "overlap_0.70/12",
+            "overlap_0.70/07",
+            "overlap_0.70/11",
+            "overlap_0.70/03",
+            "overlap_0.70/01"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2111.04625",
+        "target_reviewer": {
+            "request": [
+                "ben_y"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/07",
+            "overlap_0.70/11",
+            "overlap_0.70/04",
+            "overlap_0.70/05",
+            "overlap_0.70/08",
+            "overlap_0.70/01",
+            "overlap_0.70/15",
+            "overlap_0.70/09"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.09528",
+        "target_reviewer": {
+            "request": [
+                "olya_ohrimenko"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/02",
+            "overlap_0.70/08",
+            "overlap_0.70/07",
+            "overlap_0.70/11",
+            "overlap_0.70/13",
+            "overlap_0.70/09",
+            "overlap_0.70/10",
+            "overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2111.04625",
+        "target_reviewer": {
+            "request": [
+                "cl?mentine_maurice"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/09",
+            "overlap_0.70/15",
+            "overlap_0.70/04",
+            "overlap_0.70/03",
+            "overlap_0.70/08",
+            "overlap_0.70/12",
+            "overlap_0.70/01",
+            "overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05307",
+        "target_reviewer": {
+            "request": [
+                "florian_tram?r"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/02",
+            "overlap_0.70/13",
+            "overlap_0.70/11",
+            "overlap_0.70/09",
+            "overlap_0.70/10",
+            "overlap_0.70/08",
+            "overlap_0.70/15",
+            "overlap_0.70/01"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2106.09898",
+        "target_reviewer": {
+            "request": [
+                "feargus_pendlebury"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/15",
+            "overlap_0.70/14",
+            "overlap_0.70/01",
+            "overlap_0.70/02",
+            "overlap_0.70/09",
+            "overlap_0.70/05",
+            "overlap_0.70/10",
+            "overlap_0.70/04"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.04838",
+        "target_reviewer": {
+            "request": [
+                "thomas_eisenbarth"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/05",
+            "overlap_0.70/07",
+            "overlap_0.70/01",
+            "overlap_0.70/09",
+            "overlap_0.70/06",
+            "overlap_0.70/15",
+            "overlap_0.70/10",
+            "overlap_0.70/00"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05719",
+        "target_reviewer": {
+            "request": [
+                "fengwei_zhang"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/14",
+            "overlap_0.70/04",
+            "overlap_0.70/01",
+            "overlap_0.70/13",
+            "overlap_0.70/05",
+            "overlap_0.70/09",
+            "overlap_0.70/00",
+            "overlap_0.70/15"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2108.01341",
+        "target_reviewer": {
+            "request": [
+                "giulio_malavolta"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/11",
+            "overlap_0.70/04",
+            "overlap_0.70/09",
+            "overlap_0.70/01",
+            "overlap_0.70/07",
+            "overlap_0.70/06",
+            "overlap_0.70/05",
+            "overlap_0.70/14"
+        ]
+    },
+    {
+        "submission": "oakland_22/arxiv-sources/submissions_latexpanded/2112.05224",
+        "target_reviewer": {
+            "request": [
+                "fabio_pierazzi"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "victim/00",
+            "victim/01",
+            "victim/02",
+            "victim/03",
+            "victim/04",
+            "victim/05",
+            "victim/06",
+            "victim/07"
+        ],
+        "surrogate_models": [
+            "overlap_0.70/13",
+            "overlap_0.70/15",
+            "overlap_0.70/07",
+            "overlap_0.70/08",
+            "overlap_0.70/10",
+            "overlap_0.70/09",
+            "overlap_0.70/05",
+            "overlap_0.70/02"
+        ]
+    }
+]

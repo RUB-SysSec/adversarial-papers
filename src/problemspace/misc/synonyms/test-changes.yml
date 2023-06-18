@@ -1,0 +1,7 @@
+network: -2
+intrusion: -2
+detection: -2
+malware: +2
+analysis: +2
+program: +2
+   

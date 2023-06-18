@@ -1,0 +1,22 @@
+
+# Application files
+input: test-input.txt
+output: test-output.txt
+changes: test-changes.yml
+thres: 0.5
+
+# Training files
+model: ../sp_blackbox-stem.w2v.gz
+corpus: ../sp_blackbox.json
+
+# Config for text processing
+nltk:
+    stemming: True
+    lower: True
+    min_tokens: 7
+
+# Config for word2vec model
+word2vec:
+    dim: 200
+    min_count: 5
+    epochs: 30

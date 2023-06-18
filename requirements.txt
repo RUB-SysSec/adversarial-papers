@@ -1,0 +1,31 @@
+gensim==3.8.3
+matplotlib==3.3.3
+nltk==3.5
+pip-chill==1.0.0
+z3-solver==4.8.9.0
+pylatexenc==2.8
+bibtexparser==1.2.0
+homoglyphs==2.0.4
+pandas==1.2.2
+pydng==1.1.2
+PyYAML==5.4.1
+scikit-learn==0.24.2
+transformers==4.22.1
+fuzzywuzzy==0.18.0
+python-Levenshtein==0.12.2
+keras==2.10.0
+tensorflow-cpu==2.10.0
+spacy==3.4.2
+smart-open==5.2.1
+torch== 1.12.1
+torchvision==0.13.1
+torchaudio==0.12.1
+accelerate
+datasets >= 1.8.0
+sentencepiece != 0.1.92
+protobuf==3.19.5
+evaluate==0.3.0
+multiprocess==0.70.13
+dill==0.3.5.1 
+pulp==2.6.0
+seaborn==0.11.1
