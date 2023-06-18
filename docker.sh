@@ -18,6 +18,8 @@ shell()
                -v $PWD/evaluation/submissions:/root/adversarial-papers/evaluation/submissions \
                -v $PWD/evaluation/scripts:/root/adversarial-papers/evaluation/scripts \
                -v $PWD/evaluation/plots:/root/adversarial-papers/evaluation/plots \
+               -v $PWD/evaluation/problemspace/llms:/root/adversarial-papers/evaluation/problemspace/llms \
+               -v $PWD/evaluation/problemspace/synonyms:/root/adversarial-papers/evaluation/problemspace/synonyms \
                --rm -it adversarial-papers bash
 }
 
@@ -33,6 +35,8 @@ run(){
                -v $PWD/evaluation/submissions:/root/adversarial-papers/evaluation/submissions \
                -v $PWD/evaluation/scripts:/root/adversarial-papers/evaluation/scripts \
                -v $PWD/evaluation/plots:/root/adversarial-papers/evaluation/plots \
+               -v $PWD/evaluation/problemspace/llms:/root/adversarial-papers/evaluation/problemspace/llms \
+               -v $PWD/evaluation/problemspace/synonyms:/root/adversarial-papers/evaluation/problemspace/synonyms \
                --rm -it adversarial-papers $1
 }
 
