@@ -159,7 +159,7 @@ evaluation
         └── surrogate_targets_4.json
 ```
 
-Pre-trained models are available at `https://zenodo.org/record/8047495`. Due to licensing issues, we can not make the target submissions publicly available. We do, however, publish all of our crawling scripts (cf. `scripts/crawler`).
+Pre-trained models are available at `https://zenodo.org/record/8051736`. Due to licensing issues, we can not make the target submissions publicly available. We do, however, publish all of our crawling scripts (cf. `scripts/crawler`).
 </details>
 
 <details>
@@ -314,7 +314,7 @@ evaluation
 
 Refer to the `prerequisites` for each experiment to see which files are required.
 
-Pre-trained models are available at `https://zenodo.org/record/8047495`. Due to licensing issues, we can not make the datatsets and target submissions publicly available. We do, however, publish all of our crawling scripts (cf. `scripts/crawler`).
+Pre-trained models are available at `https://zenodo.org/record/8051736`. Due to licensing issues, we can not make the datatsets and target submissions publicly available. We do, however, publish all of our crawling scripts (cf. `scripts/crawler`).
 
 </details>
 <details>
