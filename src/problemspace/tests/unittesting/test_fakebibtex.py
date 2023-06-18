@@ -10,7 +10,7 @@ from utils.pdf_utils import analyze_words
 
 
 class TestFakeBibTexTransformer(UnitBaseClass):
-    bibtexfiles = pathlib.Path.cwd().parent / "evaluation" / "bibsources"  # TODO unique config file for that
+    bibtexfiles = pathlib.Path.cwd().parent / "evaluation" / "problemspace" / "bibsources"  # TODO unique config file for that
 
     def setUp(self):
         """

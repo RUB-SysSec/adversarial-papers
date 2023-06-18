@@ -124,8 +124,8 @@ def hypersearch(**kwargs):
         'workers' : kwargs['workers_per_trial'], 
         'targets_file' : None,
         'problemspace_config' : {
-            "bibtexfiles": "/root/adversarial-papers/evaluation/bibsources",
-            "synonym_model": "/root/adversarial-papers/src/problemspace/misc/synonyms/models/sec-conf-paper-nostem.w2v.gz",
+            "bibtexfiles": "/root/adversarial-papers/evaluation/problemspace/bibsources",
+            "synonym_model": "/root/adversarial-papers/evaluation/problemspace/synonyms/sec-conf-paper-nostem.w2v.gz",
             "stemming_map": "/root/adversarial-papers/src/problemspace/misc/stemming_mapping",
             "debug_coloring": False,
             "verbose": False,

@@ -10,7 +10,7 @@ if __name__ == '__main__':
     print("Next, we create the bibtex database that is needed for the BibTex Transformer.")
     parser = argparse.ArgumentParser()
     parser.add_argument('--bibtexfiles', type=Path,
-                                  default=Path.home().joinpath('adversarial-papers', 'evaluation', 'bibsources'))
+                                  default=Path.home().joinpath('adversarial-papers', 'evaluation', 'problemspace', 'bibsources'))
     args = parser.parse_args()
 
     bibtexfiles: Path = args.bibtexfiles

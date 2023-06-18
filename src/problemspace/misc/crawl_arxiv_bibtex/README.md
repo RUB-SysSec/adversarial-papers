@@ -31,7 +31,7 @@ python postprocess_crawled_arxiv_bibs.py --input_dir=INPUT_DIR --output_dir=OUTP
 
 
 ## 3. Copy
-- If result is okay, copy the bib files to <REPO-ROOT>/evaluation/bibsources
+- If result is okay, copy the bib files to <REPO-ROOT>/evaluation/problemspace/bibsources
 - Make sure that there is no cached "bibsources.pck". Delete it if present.
   - However, do *not* delete "bibsources_bibtextests.pck". This file is needed for the unit tests.
 - The BibTexTransformer will use the crawled bib entries if suitable.
