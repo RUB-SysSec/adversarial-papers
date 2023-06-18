@@ -45,6 +45,7 @@ print_usage()
     echo "Choose: docker.sh {build|shell}"
     echo "    build - Build the container"
     echo "    shell - Spawn a shell inside the container"
+    echo "    run   - Run a command inside the container"
 }
 
 if [[ $1 == "" ]]; then
