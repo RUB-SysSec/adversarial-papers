@@ -16,7 +16,7 @@ class TestOurFinedTunedLangModelTransformer(UnitBaseClass):
         """
         self.setup_all(default_latex_project="unit_latex_2")
 
-        self.gptpath = self.problemspace_path / Path("misc/huggingface/mymodels/secpapermodels/")
+        self.gptpath = Path.home().joinpath('adversarial-papers', 'evaluation', 'problemspace', 'llms', 'secpapermodels')
         # self.gptkey = "EleutherAI/gpt-neo-125M"
         self.gptkey = "facebook/opt-350m"
 

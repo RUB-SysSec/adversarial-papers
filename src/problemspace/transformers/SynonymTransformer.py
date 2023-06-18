@@ -207,7 +207,7 @@ class SynonymTransformer(ReplacementTransformer):
 
     def _build_synonym_model(self):
         if self.synonym_model_path is None:
-            path = "problemspace/misc/synonyms/models/committees_full-nostem.w2v.gz"  # sec-conf-paper-nostem.w2v.gz"
+            path = Path.home().joinpath('adversarial-papers/evaluation/problemspace/synonyms/committees_full-nostem.w2v.gz')  # sec-conf-paper-nostem.w2v.gz"
             return gensim.models.Word2Vec.load(str(path))
         else:
             path = self.synonym_model_path

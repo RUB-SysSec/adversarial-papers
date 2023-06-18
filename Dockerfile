@@ -27,8 +27,8 @@ RUN python3 -m spacy download en_core_web_sm
 RUN python3 -c "from transformers import pipeline, set_seed; generator = pipeline('text-generation', model='gpt2')"
 RUN PYTHONPATH=/root/adversarial-papers/src python3 /root/adversarial-papers/src/problemspace/transformers/bibtex/createBibTexDatabase.py --bibtexfiles /root/adversarial-papers/evaluation/problemspace/bibsources/
 
-# unit tests
-WORKDIR /root/adversarial-papers/src
-RUN PYTHONPATH=/root/adversarial-papers/src python3 -m unittest discover problemspace/tests/unittesting/
+# unit tests (requires problemspace models in 'evaluation/problemspace')
+# WORKDIR /root/adversarial-papers/src
+# RUN PYTHONPATH=/root/adversarial-papers/src python3 -m unittest discover problemspace/tests/unittesting/
 
 WORKDIR /root/adversarial-papers
