@@ -564,6 +564,9 @@ Adjust the number of workers according to your hardware setup.
     * `evaluation/targets/budget-vs-transformer.json` 
     * `evaluation/targets/switches-vs-transformer.json`
 - Models `evaluation/models/victim`
+- Problemspace 
+    * `evaluation/problemspace/llms`
+    * `evaluation/problemspace/synonyms`
 
 **Expected results**
 
