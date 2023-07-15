@@ -125,6 +125,185 @@ problemspace_config:
 ```
 </details>
 
+In the following we describe in more detail how the attack is configured, how you can train your own models, run the hyperparameter search and point to additional utility scripts.
+
+<details>
+<summary>Target files</summary>
+
+The objective of an attack itself, is described by the target file (cf. `/evaluation/targets/test.json`):
+
+- The path to the target submission (relative to the `submissions_dir`).
+- The target reviewer. Here we define the sets of selected and rejected reviewer.
+- The path to the victim and surrogate models (relative to the `models_dir`). Surrogate model(s) are used for the computation of the adversarial paper while the victim models are used only for evaluation. For the white-box setting, the victim model equals the surrogate model.  
+
+The general format of the target file is:
+```
+[
+    {
+        "submission": "test",
+        "target_reviewer": {
+            "request": [
+                "john_doe"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "test"
+        ],
+        "surrogate_models": [
+            "test"
+        ]
+    }
+]
+```
+
+When running the attack the default options defined in `src/attack.py` are used. We can override these on a per-target basis in the target file:
+
+```
+[
+    {
+        "submission": "test",
+        "target_reviewer": {
+            "request": [
+                "john_doe"
+            ],
+            "reject": []
+        },
+        "victim_models": [
+            "test"
+        ],
+        "surrogate_models": [
+            "test"
+        ],
+        "problemspace_config": {
+            "feature_problem_switch": 1,
+            "attack_budget": 1,
+            "text_level": true,
+            "encoding_level": true,
+            "format_level": true
+        },
+        "working_dir_prefix": "text-encoding-format__switches.1.00"
+    }
+]
+```
+
+The `working_dir_prefix` allows to add an prefix to the result directory for a given target.
+
+Examples of the target scripts can be found in `evaluation/targets` and the scripts generating these are located at `scripts/targets`.
+
+These can be executed with
+
+```
+./docker.sh run "python3 /root/adversarial-papers/scripts/targets/featurespace_search.py"
+./docker.sh run "python3 /root/adversarial-papers/scripts/targets/generalization_of_attack.py"
+./docker.sh run "python3 /root/adversarial-papers/scripts/targets/scaling_of_target_reviewer.py"
+./docker.sh run "python3 /root/adversarial-papers/scripts/targets/all_transformations.py"
+./docker.sh run "python3 /root/adversarial-papers/scripts/targets/surrogates.py"
+./docker.sh run "python3 /root/adversarial-papers/scripts/targets/transferability.py"
+./docker.sh run "python3 /root/adversarial-papers/scripts/targets/overlap.py"
+./docker.sh run "python3 /root/adversarial-papers/scripts/targets/committees.py"
+./docker.sh run "python3 /root/adversarial-papers/scripts/targets/load_balancing.py"
+./docker.sh run "python3 /root/adversarial-papers/scripts/targets/hypersearch.py"
+```
+
+Results are stored at `evaluation/targets`
+
+</details>
+
+<details>
+<summary>Models</summary>
+
+For our experiments, we consider models trained on three different corpora:
+- IEEE S&P'22 (`oakland_22_large`)
+- USENIX'20 (`usenix_20`)
+- Security Papers (`committees_base` and `committees`)
+
+Unfortunately, due to licensing issues, we cannot make these publicly available. If you want to crawl your own corpus, you can use the scripts located at scripts/crawler.
+
+The corpus is expected to have the following format:
+
+```
+corpus
+└── archives
+    ├── reviewer_1
+    │   ├── 0aa069f7ac18f3b170a50cd97a5f4060.pdf
+    │   ├── ...
+    │   ├── 3381de8f0ae0311dc3e9070bd5b54e6d.pdf
+    ├── reviewer_2
+    │   ├── 145c9a366b55612a15d030bc5c13a07d.pdf
+    │   ├── ...
+    │   ├── 212c6ed6e611e031fae0ab74807a38cc.pdf
+    ├── reviewer_3
+    │   ├── 061916f4999caee2034265f57763f226.pdf
+    │   ├── ...
+    │   ├── 1d6c4c675189bd1ccb17fc166e50f17b.pdf
+    ├── reviewer_4
+    │   ├── 3815c0b6259a2fe0d1cef057778761cb.pdf
+    │   ├── ...
+    │   ├── 4c7a444a826631784ccc1513ec40f00f.pdf
+    └── reviewer_5
+        ├── 02fe5ecad640614a79fc26fed8ebca8d.pdf
+        ├── ...
+        └── fe5ae19b22e6f2af5b474c5c2e719b6a.pdf
+```
+
+Given a suitable corpus, you can train your own model using the src/autobid.py script.
+
+```
+usage: autobid.py [-h] [--corpus_dir CORPUS_DIR] [--models_dir MODELS_DIR] [--no_models NO_MODELS] [--no_topics NO_TOPICS] [--passes PASSES] [--iterations ITERATIONS] [--workers WORKERS]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --corpus_dir CORPUS_DIR
+  --models_dir MODELS_DIR
+  --no_models NO_MODELS
+  --no_topics NO_TOPICS
+  --passes PASSES
+  --iterations ITERATIONS
+  --workers WORKERS
+```
+
+For example, the a model `test` can be trained via
+
+```
+./docker.sh run "python3 /root/adversarial-papers/src/autobid.py --corpus_dir /root/adversarial-papers/evaluation/corpus/test --models_dir /root/adversarial-papers/evaluation/models/test
+```
+
+</details>
+
+<details>
+<summary>Hypersearch</summary>
+
+The hyperparameter search is provided in a separate script `src/hypersearch.py` that orchestrates the main attack script and keeps track of all parameters.
+
+It can be executed with
+
+```
+WORKERS=56
+./docker.sh run "python3 /root/adversarial-papers/src/hypersearch.py --white_box --workers ${WORKERS} --workers_per_trial 8 --name white_box"
+```
+
+and 
+
+```
+WORKERS=56
+./docker.sh run "python3 /root/adversarial-papers/src/hypersearch.py --black_box --workers ${WORKERS} --workers_per_trial 8 --name black_box"
+```
+
+Results are saved @ `evaluation/trials/_hyperparameter'
+</details>
+
+<details>
+<summary>Scripts</summary>
+
+Additional helper scripts are located at `scripts`
+- `scripts/load_balancing`
+- `scripts/morphing`
+- `scripts/reviewer_words`
+- `scripts/submissions`
+- `scripts/corpus`
+</details>
+
 ## Experiments
 
 The full evaluation consists of ten experiments, which requires about 6.5 CPU years to fully execute. In the following, we first descirbe a subset of experiments we think are necessary to reproduce the major claims in the paper. Subsequently, we give a complete description of all ten experiments.
@@ -159,7 +338,19 @@ evaluation
         └── surrogate_targets_4.json
 ```
 
-Pre-trained models are available at `https://zenodo.org/record/8051736`. Due to licensing issues, we can not make the target submissions publicly available. We do, however, publish all of our crawling scripts (cf. `scripts/crawler`).
+Pre-trained models are available at `https://zenodo.org/record/8051736`
+- committees.zip
+- hypersearch.zip
+- overlap_0.70.zip
+- overlap_all.zip
+- usenix_20.zip
+- victim.zip
+
+These need to be unpacked in the `evaluation/models` directory. For the main experiments only `overlap_0.70.zip` and `victim.zip` are required.
+
+The problemspace models `llms` and `synonyms` are included in the `problemspace.zip`. These need to be unzipped in the `evaluation/problemspace` directory.
+
+Due to licensing issues, we can not make the target submissions publicly available. We do, however, publish all of our crawling scripts (cf. `scripts/crawler`).
 </details>
 
 <details>
@@ -860,93 +1051,4 @@ Appendix I
 ```
 [+] Saved plot @ evaluation/plots/load_balancing.pdf
 ```
-</details>
-
-
-## Misc
-<details>
-<summary>Targets</summary>
-
-Scripts for generating targets are located at `scripts/targets`.
-
-These can be executed with
-
-```
-./docker.sh run "python3 /root/adversarial-papers/scripts/targets/featurespace_search.py"
-./docker.sh run "python3 /root/adversarial-papers/scripts/targets/generalization_of_attack.py"
-./docker.sh run "python3 /root/adversarial-papers/scripts/targets/scaling_of_target_reviewer.py"
-./docker.sh run "python3 /root/adversarial-papers/scripts/targets/all_transformations.py"
-./docker.sh run "python3 /root/adversarial-papers/scripts/targets/surrogates.py"
-./docker.sh run "python3 /root/adversarial-papers/scripts/targets/transferability.py"
-./docker.sh run "python3 /root/adversarial-papers/scripts/targets/overlap.py"
-./docker.sh run "python3 /root/adversarial-papers/scripts/targets/committees.py"
-./docker.sh run "python3 /root/adversarial-papers/scripts/targets/load_balancing.py"
-./docker.sh run "python3 /root/adversarial-papers/scripts/targets/hypersearch.py"
-```
-
-Results are stored at `evaluation/targets`
-</details>
-
-<details>
-<summary>Hypersearch</summary>
-
-The hyperparameter search is provided in a separate script `src/hypersearch.py` that orchestrates the main attack script and keeps track of all parameters.
-
-It can be executed with
-
-```
-WORKERS=56
-./docker.sh run "python3 /root/adversarial-papers/src/hypersearch.py --white_box --workers ${WORKERS} --workers_per_trial 8 --name white_box"
-```
-
-and 
-
-```
-WORKERS=56
-./docker.sh run "python3 /root/adversarial-papers/src/hypersearch.py --black_box --workers ${WORKERS} --workers_per_trial 8 --name black_box"
-```
-
-Results are saved @ `evaluation/trials/_hyperparameter'
-</details>
-<details>
-<summary>Train your own models</summary>
-
-For our experiments, we consider models trained on three different corpora:
-- IEEE S&P'22 (`oakland_22_large`)
-- USENIX'20 (`usenix_20`)
-- Security Papers (`committees_base` and `committees`)
-
-Unfortunately, due to licensing issues, we cannot make these publicly available. If you want to crawl your own corpus, you can use the scripts located at `scripts/crawler`.
-
-Given a suitable corpus, you can train your own model using the `src/autobid.py` script.
-
-```
-usage: autobid.py [-h] [--corpus_dir CORPUS_DIR] [--models_dir MODELS_DIR] [--no_models NO_MODELS] [--no_topics NO_TOPICS] [--passes PASSES] [--iterations ITERATIONS] [--workers WORKERS]
-
-optional arguments:
-  -h, --help            show this help message and exit
-  --corpus_dir CORPUS_DIR
-  --models_dir MODELS_DIR
-  --no_models NO_MODELS
-  --no_topics NO_TOPICS
-  --passes PASSES
-  --iterations ITERATIONS
-  --workers WORKERS
-```
-
-For example, the USENIX models can be trained via
-
-```
-./docker.sh run "python3 /root/adversarial-papers/src/autobid.py --corpus_dir /root/adversarial-papers/evaluation/corpus/usenix_20 --models_dir /root/adversarial-papers/evaluation/models/usenix
-```
-</details>
-<details>
-<summary>Scripts</summary>
-
-Additional helper scripts are located at `scripts`
-- `scripts/load_balancing`
-- `scripts/morphing`
-- `scripts/reviewer_words`
-- `scripts/submissions`
-- `scripts/corpus`
 </details>
