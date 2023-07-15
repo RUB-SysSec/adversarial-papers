@@ -263,7 +263,7 @@ optional arguments:
   --workers WORKERS
 ```
 
-For example, the a model `test` can be trained via
+For example, the model `test` can be trained via
 
 ```
 ./docker.sh run "python3 /root/adversarial-papers/src/autobid.py --corpus_dir /root/adversarial-papers/evaluation/corpus/test --models_dir /root/adversarial-papers/evaluation/models/test
