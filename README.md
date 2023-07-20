@@ -214,9 +214,9 @@ Results are stored at `evaluation/targets`
 <summary>Models</summary>
 
 For our experiments, we consider models trained on three different corpora:
-- IEEE S&P'22 (`oakland_22_large`)
+- IEEE S&P'22 (`oakland_22`)
 - USENIX'20 (`usenix_20`)
-- Security Papers (`committees_base` and `committees`)
+- Security Papers (`committees_base`)
 
 Unfortunately, due to licensing issues, we cannot make these publicly available. If you want to crawl your own corpus, you can use the scripts located at scripts/crawler.
 
@@ -350,7 +350,7 @@ These need to be unpacked in the `evaluation/models` directory. For the main exp
 
 The problemspace models `llms` and `synonyms` are included in the `problemspace.zip`. These need to be unzipped in the `evaluation/problemspace` directory.
 
-Due to licensing issues, we can not make the target submissions publicly available. We do, however, publish all of our crawling scripts (cf. `scripts/crawler`).
+Due to licensing issues, we can not make the target submissions publicly available.
 </details>
 
 <details>
@@ -505,7 +505,7 @@ evaluation
 
 Refer to the `prerequisites` for each experiment to see which files are required.
 
-Pre-trained models are available at `https://zenodo.org/record/8051736`. Due to licensing issues, we can not make the datatsets and target submissions publicly available. We do, however, publish all of our crawling scripts (cf. `scripts/crawler`).
+Pre-trained models are available at `https://zenodo.org/record/8051736`. Due to licensing issues, we can not make the datatsets and target submissions publicly available.
 
 </details>
 <details>

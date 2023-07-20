@@ -12,8 +12,8 @@ from subprocess import DEVNULL, PIPE, TimeoutExpired, run
 from tempfile import TemporaryDirectory
 from difflib import SequenceMatcher
 
-DATA_DIR = Path('/root/adversarial-papers/evaluation/corpus/large')
-BLOCKLIST = Path('/root/adversarial-papers/scripts/fetch/blocklist.json')
+DATA_DIR = Path('/root/adversarial-papers/evaluation/corpus/usenix_20')
+BLOCKLIST = Path('/root/adversarial-papers/scripts/crawler/blocklist.json')
 
 class DownloadError(Exception):
     def __init__(self, reason, url):

@@ -7,7 +7,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from tqdm import tqdm
 
-DATA_DIR = Path('/root/adversarial-papers/evaluation/corpus/large')
+DATA_DIR = Path('/root/adversarial-papers/evaluation/corpus/usenix_20')
 
 def find_pdfs_in_popup(link, driver):
     driver.get(link)

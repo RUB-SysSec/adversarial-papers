@@ -10,8 +10,8 @@ RUN    apt update \
 # setup selenium
 WORKDIR /root
 RUN apt update \
-    && apt install -y wget unzip chromium-browser=105.0.5195.102-0ubuntu0.18.04.1 \
-    && wget https://chromedriver.storage.googleapis.com/105.0.5195.52/chromedriver_linux64.zip \
+    && apt install -y wget unzip chromium-browser=112.0.5615.49-0ubuntu0.18.04.1 \
+    && wget https://chromedriver.storage.googleapis.com/112.0.5615.49/chromedriver_linux64.zip \
     && unzip chromedriver_linux64.zip \
     && rm chromedriver_linux64.zip \
     && apt install -y python3 python3-pip \
@@ -20,3 +20,5 @@ RUN apt update \
 RUN apt install -y python3 python3-pip \
     && apt install -y poppler-utils \
     && pip3 install tqdm pypdf2
+
+WORKDIR /root/adversarial-papers/scripts/crawler
