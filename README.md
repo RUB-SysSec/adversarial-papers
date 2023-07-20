@@ -306,7 +306,7 @@ Additional helper scripts are located at `scripts`
 
 ## Experiments
 
-The full evaluation consists of ten experiments, which requires about 6.5 CPU years to fully execute. In the following, we first descirbe a subset of experiments we think are necessary to reproduce the major claims in the paper. Subsequently, we give a complete description of all ten experiments.
+The full evaluation consists of ten experiments, which requires about 6.5 CPU years to fully execute. In the following, we first describe a subset of experiments we think are necessary to reproduce the major claims in the paper. Subsequently, we give a complete description of all ten experiments.
 
 Each experiment is configured with a file describing all considered targets (`--targets_file`). These files are located at `evaluation/targets`. The scripts to re-generate these files are located at `scripts/targets`. Each target is optimized to run on a single-core and the experiments are therefore highly amneable for parallelization across CPU cores and machines. Note, that depending on the experiments more or less computer memory might be required (e.g., the black-box experiments require more memory per instance to store the surrogate models). Depending on the machine, this might limit the number of parallel executions. To get a good estimate, we will additionally report an approximated (!) maximal memory per instance (e.g., with 100 workers the experiment requires 100x the amount of this value). 
 
