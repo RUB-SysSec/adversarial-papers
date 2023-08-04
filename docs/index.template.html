@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adversarial Papers</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script src="/static/scripts.js"></script>
+    <script src="https://use.fontawesome.com/71ce839bcc.js"></script>
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <div class="m-5 mb-1 card" style="width: 1200px;">
+          <div class="card-content">
+            <p class="block mb-2 title is-size-4">Examples</p>
+             We present examples accompaning our USENIX Security'23 paper <i>“No more Reviewer #2: Subverting Automatic Paper-Reviewer Assignment using Adversarial Learning”</i>. We show three representative adversarial papers computed for different scenarios and configurations.
+
+          </div>
+        </div>
+      </div>
+    <div class="container">
+    {% for paper in papers %}
+    <div class="m-5 card" style="width: 1200px;">
+      <div class="card-content">
+        <!-- Header -->
+        <p class="block mb-2 title is-size-4">{{paper["submission_name"]}}</p>
+        <a target="_blank" href="https://arxiv.org/abs/{{paper['arxiv_id']}}"><span class="block tag is-info">ArXiv ID: {{paper["arxiv_id"]}}</span></a> 
+        <!-- Transformations -->
+        <div class="block content mt-5">
+          <p class="heading mb-1">Transformations (Budget {{ paper["budget"] }})</p>
+          <p class="title is-size-5">{{ paper["transformations"] }}</p>
+        </div>
+        <!-- Target Reviewer -->
+        <div class="block content">
+          <p class="heading mb-1">Selected Reviewer</p>
+          <p class="title is-size-5"> {{ paper["target_reviewer"]["select"] }}</p>
+        </div>
+        <div class="block content">
+          <p class="heading mb-1">Rejected Reviewer</p>
+          <p class="title is-size-5"> {{ paper["target_reviewer"]["reject"] }}</p>
+        </div>
+        <!-- Adversarial Paper -->
+        <div class="block content">
+          <div class="block">
+            <p class="heading" style="margin-bottom: -10px;">Adversarial Paper</p>
+            <ul>
+            <li>
+              <a class=" has-text-info" href="https://raw.githubusercontent.com/RUB-SysSec/adversarial-papers/main/examples/paper/{{paper['arxiv_id']}}/clean.pdf">
+                <span class="icon is-small"><i class="fa fa-copy"></i></span>
+                <span>Paper</span>
+              </a>
+            </li>
+            <li>
+              <a class=" has-text-info" href="https://raw.githubusercontent.com/RUB-SysSec/adversarial-papers/main/examples/paper/{{paper['arxiv_id']}}/clean.tex">
+                <span class="icon is-small"><i class="fa fa-copy"></i></span>
+                <span>Paper (LaTeX)</span>
+              </a>
+            </li>
+            <li>
+                <a class=" has-text-danger" href="https://raw.githubusercontent.com/RUB-SysSec/adversarial-papers/main/examples/paper/{{paper['arxiv_id']}}/adversarial.pdf">
+              <span class="icon is-small"><i class="fa fa-copy"></i></span>
+              <span>Adversarial Paper</span>
+            </a></li>
+            <!-- <li><a class="has-text-danger" href="https://raw.githubusercontent.com/RUB-SysSec/adversarial-papers/main/examples/paper/{{paper['arxiv_id']}}/highlighted.pdf">
+              <span class="icon is-small"><i class="fa fa-copy"></i></span>
+              <span>Adversarial Paper (Annotated)</span>
+            </a>
+            </li> -->
+            <li>
+              <a class="has-text-danger" href="https://raw.githubusercontent.com/RUB-SysSec/adversarial-papers/main/examples/paper/{{paper['arxiv_id']}}/adversarial.tex">
+                <span class="icon is-small"><i class="fa fa-copy"></i></span>
+                <span>Adversarial Paper (LaTeX)</span>
+              </a>
+            </li>
+          </ul>
+          <p class=""> {{ paper["annotation"] }}</p>
+          </div>
+        </div>
+        <!-- Ranking -->
+          <p class="heading pb-2">Ranking</p>
+        <div class="block columns">
+          <div class="column">
+            <div class="notification is-info is-light">
+              <!-- Header -->
+              <div class="field is-grouped is-grouped-multiline ">
+                <div class="control"><p class="pb-1 title is-size-5">Original Ranking</p></div>
+              </div>
+              <!-- Table -->
+              <table class="table  is-hoverable is-fullwidth">
+                <thead>
+                  <tr>
+                  <th>Rank</th>
+                  <th>Reviewer</th>
+                  <th>Score</th>
+                  <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for e in paper["initial_ranking"] %}
+                  <tr {% if loop.index0 < 5 %}class="has-text-weight-semibold"{% endif %} >
+                    <th>{{loop.index0+1}}</th>
+                    <td>{{e[0]}}</td>
+                    <td>{{e[1]}}</td>
+                    {% if e[2] == "" %}<td></td>{% endif %}
+                    {% if e[2] == "^" %}<td><span class="icon has-text-success"><i class="fa fa-chevron-up"></i></span></td>{% endif %}
+                    {% if e[2] == "v" %}<td><span class="icon has-text-danger"><i class="fa fa-chevron-down"></i></span></td>{% endif %}
+                    <td></td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="column">
+            <div class="notification is-danger is-light">
+              <!-- Header -->
+              <div class="field is-grouped is-grouped-multiline ">
+                <div class="control"><p class="pb-1 title is-size-5">Adversarial Ranking</p></div>
+                <div class="pl-5 control ">
+                  <div class="tags has-addons ">
+                    <span class="tag is-dark ">L1</span>
+                    <span class="tag is-info ">{{paper['l1']}}</span>
+                  </div>
+                </div>                 
+                <div class="control">
+                  <div class="tags has-addons">
+                    <span class="tag is-dark ">Linf</span>
+                    <span class="tag is-info ">{{paper['linf']}}</span>
+                  </div>
+                </div>
+              </div>
+              <!-- Table -->
+              <table class="table is-hoverable is-fullwidth">
+                <thead>
+                  <tr>
+                    <th>Rank</th>
+                    <th>Reviewer</th>
+                    <th>Score</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for e in paper["adversarial_ranking"] %}
+                  <tr {% if loop.index0 < 5 %}class="has-text-weight-semibold"{% endif %} >
+                    <th>{{loop.index0+1}}</th>
+                    <td>{{e[0]}}</td>
+                    <td>{{e[1]}}</td>
+                    {% if e[2] == "" %}<td></td>{% endif %}
+                    {% if e[2] == "^" %}<td><span class="icon has-text-success"><i class="fa fa-chevron-up"></i></span></td>{% endif %}
+                    {% if e[2] == "v" %}<td><span class="icon has-text-danger"><i class="fa fa-chevron-down"></i></span></td>{% endif %}
+                    <td></td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+</body>
+</html>
